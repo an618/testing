@@ -1,0 +1,1273 @@
+{
+  "HomePage": {
+    "title": "Hello world!"
+  },
+  "DashboardHeader": {
+    "greeting": "Hello {{name}}",
+    "companyName": "{{name}}"
+  },
+  "Dashboard": {
+    "languageSwitch": {
+      "english": "English",
+      "spanish": "Español"
+    }
+  },
+  "Sidebar": {
+    "logo": "GlidingPath",
+    "navigation": {
+      "dashboard": "Dashboard",
+      "participants": "Participants",
+      "roster": "Roster",
+      "activity": "Activity",
+      "reports": "Reports",
+      "payroll": "Payroll",
+      "tasks": "Tasks & Activity",
+      "contributions": "Contributions",
+      "resources": "Resources"
+    },
+    "secondary": {
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "support": "Support"
+    },
+    "user": {
+      "welcomeBack": "Welcome back",
+      "userName": "Johnathan",
+      "logout": "Logout"
+    },
+    "accessibility": {
+      "openSidebar": "Open sidebar",
+      "closeSidebar": "Close sidebar",
+      "expandSidebar": "Expand sidebar",
+      "collapseSidebar": "Collapse sidebar",
+      "sidebarOverlay": "Sidebar overlay"
+    }
+  },
+  "Register": {
+    "navigation": {
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit",
+      "signUp": "Sign Up"
+    },
+    "form": {
+      "title": "Create Your Account",
+      "fields": {
+        "organizationName": "Organization Name",
+        "email": "Email Address",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      },
+      "placeholders": {
+        "organizationName": "Enter your organization name",
+        "email": "Enter your email address",
+        "firstName": "Enter your first name",
+        "lastName": "Enter your last name",
+        "password": "Enter your password",
+        "confirmPassword": "Confirm your password"
+      },
+      "errors": {
+        "organizationName": "Organization name is required",
+        "organizationNameNumbers": "Organization name cannot be numbers only",
+        "email": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "firstName": "First name is required",
+        "lastName": "Last name is required",
+        "password": "Password is required",
+        "passwordLength": "Password must be at least 8 characters long",
+        "confirmPassword": "Please confirm your password",
+        "confirmPasswordMatch": "Passwords do not match"
+      },
+      "submitButton": "Sign Up",
+      "submittingButton": "Creating Account..."
+    },
+    "steps": {
+      "employees": {
+        "title": "Do you currently have any W-2 employees besides yourself or your spouse?",
+        "options": [
+          "No, and I don't plan to hire in the near future",
+          "No, but I intend to hire within the next 12 months",
+          "Yes, I have active W-2 employees"
+        ]
+      },
+      "email": {
+        "title": "Email ID:",
+        "placeholder": "Enter your mail id",
+        "error": "Please enter a valid email address"
+      },
+      "describe": {
+        "title": "Which of the below best describes you?",
+        "subtitle": "",
+        "options": [
+          "I'm an independent contractor/ freelancer/ self-employed with 1099 income.",
+          "I'm a business owner with no W-2 employees (other than spouse).",
+          "I'm a business owner with  active W-2 employees other than myself/spouse.",
+          "I'm representing a company that has active W-2 employees."
+        ]
+      },
+      "priority": {
+        "title": "What is your top priority in looking for a 401(k) retirement plan?",
+        "subtitle": "",
+        "options": [
+          "Maximizing savings for business owner & spouse",
+          "Enabling employees to save for retirement",
+          "Retaining top talent",
+          "Complying with the state mandate of offering a retirement plan",
+          "Unsure"
+        ]
+      },
+      "businessSize": {
+        "title": "What is the size of your business/ company?",
+        "subtitle": "",
+        "options": [
+          "0-5 employees",
+          "6-50 employees",
+          "51-100 employees",
+          "101-500 employees",
+          "500+ employees"
+        ]
+      },
+      "w2Employees": {
+        "title": "Do you have any W-2 employees besides the owner(s) and their spouse(s)?",
+        "options": [
+          "No, and I don't plan to hire any.",
+          "No, but I intend to hire within the next 12 months.",
+          "Yes, I currently have employees."
+        ]
+      },
+      "retirementPlan": {
+        "title": "Do you/ your company currently have a 401(k) retirement plan?",
+        "options": ["Yes", "No"]
+      },
+      "multipleBusinesses": {
+        "title": "Do you or the business owner operate more than one business?",
+        "options": ["Yes", "No"]
+      },
+      "payrollProvider": {
+        "title": "Who is your payroll provider ?",
+        "options": ["Provider 1", "Provider 2", "Provider 3", "others"]
+      }
+    }
+  },
+  "EmployeeLogin": {
+    "aboutRetirementPlans": "About Your Retirement Plans",
+    "retirementQuestionsTitle": "Tell Us About Your Retirement Plans",
+    "retirementQuestions": {
+      "retirementAge": {
+        "question": "At what age do you expect to begin withdrawing from your 401(k)?",
+        "options": {
+          "before60": "Before 60",
+          "60to64": "60-64",
+          "65to69": "65-69",
+          "70orlater": "70 or later",
+          "notSure": "I'm not sure"
+        }
+      },
+      "incomeSecurity": {
+        "question": "How secure and predictable is your household income today?",
+        "options": {
+          "veryUnpredictable": "Very unpredictable — may vary a lot year to year",
+          "somewhatStable": "Somewhat stable — occasional fluctuations",
+          "stable": "Stable — very few fluctuations",
+          "verySecure": "Very secure — fixed or guaranteed income sources"
+        }
+      },
+      "investmentFamiliarity": {
+        "question": "How familiar are you with investing concepts (e.g., stocks, bonds, diversification)?",
+        "options": {
+          "noExperience": "No experience — this is new to me",
+          "limited": "Limited — I know the basics",
+          "moderate": "Moderate — I understand most concepts",
+          "advanced": "Advanced — I understand complex details and strategies"
+        }
+      },
+      "marketReaction": {
+        "question": "If your 401(k) dropped 20% in one year, how would you most likely react?",
+        "options": {
+          "sellEverything": "Sell everything to avoid further losses",
+          "reduceInvestments": "Reduce investments and move to safer options",
+          "stayInvested": "Stay invested and wait for markets to recover",
+          "investMore": "Invest more to take advantage of lower prices"
+        }
+      },
+      "riskTolerance": {
+        "question": "Thinking about past financial decisions, how much risk have you typically taken with your investments?",
+        "options": {
+          "avoidedRisk": "I have avoided risk almost completely",
+          "smallRisks": "I have taken small, cautious risks",
+          "moderateRisks": "I have taken moderate risks when appropriate",
+          "aggressiveRisks": "I have taken aggressive risks in pursuit of higher returns"
+        }
+      },
+      "returnExpectation": {
+        "question": "Over the long term, what annual return range do you expect from your investments, knowing higher returns come with higher risk?",
+        "options": {
+          "lowRisk": "2-4% (low risk, bond-like returns)",
+          "moderateRisk": "5-6% (moderate risk, balanced portfolio)",
+          "higherRisk": "7-8% (higher risk, stock-heavy portfolio)",
+          "veryHighRisk": "9%+ (very high risk, aggressive growth portfolio)"
+        }
+      },
+      "retirementConfidence": {
+        "question": "How confident are you that your current savings rate and assets will be enough for retirement?",
+        "options": {
+          "notConfident": "Not confident — I will need significant growth or extra savings",
+          "somewhatConfident": "Somewhat confident — I will need above-average returns",
+          "confident": "Confident — I should reach my goals with moderate growth",
+          "veryConfident": "Very confident — I could meet my goals even with conservative growth"
+        }
+      }
+    },
+    "navigation": {
+      "back": "Back",
+      "next": "Next",
+      "signIn": "Sign In",
+      "complete": "Complete Setup"
+    },
+    "steps": {
+      "investmentPath": {
+        "title": "Choose Your Investment Path",
+        "subtitles": "Get a portfolio tailored to your goals and risk profile.|Stay on track with your plan's target date fund.|Choose your own investments and set allocations manually.",
+        "options": {
+          "personalize": {
+            "title": "Personalize",
+            "subtitle": "Get a portfolio tailored to your goals and risk profile."
+          },
+          "default": {
+            "title": "Default",
+            "subtitle": "Stay on track with your plan's target date fund."
+          },
+          "custom": {
+            "title": "Custom",
+            "subtitle": "Choose your own investments and set allocations manually."
+          }
+        }
+      },
+      "email": {
+        "title": "Email ID:",
+        "placeholder": "Enter your work email",
+        "error": "Please enter a valid email address"
+      },
+      "riskTolerance": {
+        "title": "What is your risk tolerance?",
+        "options": {
+          "conservative": "Conservative - I prefer lower risk with steady returns",
+          "moderate": "Moderate - I'm comfortable with balanced risk and returns",
+          "aggressive": "Aggressive - I'm willing to take higher risks for potentially higher returns"
+        }
+      },
+      "retirementGoal": {
+        "title": "What is your retirement goal?",
+        "options": {
+          "comfortable": "Comfortable retirement - Maintain my current lifestyle",
+          "modest": "Modest retirement - Basic needs covered with some extras",
+          "luxury": "Luxury retirement - Travel and enjoy life without financial worries"
+        }
+      },
+      "retirementPlans": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "When do you plan to retire?",
+        "question": "When do you plan to retire?",
+        "ageLabel": "Select your age",
+        "selectAge": "Select your age",
+        "options": {
+          "18": "18 years",
+          "19": "19 years",
+          "20": "20 years",
+          "21": "21 years",
+          "noMinimum": "No minimum age"
+        }
+      },
+      "retirementPlanning": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "How familiar are you with investing?",
+        "options": {
+          "beginner": "Beginner",
+          "intermediate": "Intermediate",
+          "experienced": "Experienced"
+        }
+      },
+      "marketComfort": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "How comfortable were you with past market ups and downs?",
+        "options": {
+          "veryUncomfortable": "Very Uncomfortable - I worry a lot during market drops",
+          "somewhatUncomfortable": "Somewhat Uncomfortable - I prefer stability, but can handle small fluctuations",
+          "neutral": "Neutral - I accept that markets go up and down",
+          "somewhatComfortable": "Somewhat Comfortable - I don't panic with volatility, I stay invested",
+          "veryComfortable": "Very Comfortable - I've experienced downturns and stayed confident"
+        }
+      },
+      "investmentBehavior": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "If your investments dropped by 20%, what would you do?",
+        "options": {
+          "sellImmediately": "Sell Immediately",
+          "waitAndWatch": "Wait & Watch",
+          "investMore": "Invest More"
+        }
+      },
+      "investmentHorizon": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "What is your investment horizon and return expectation?",
+        "options": {
+          "shortTerm": "Short-term",
+          "mediumTerm": "Medium-term",
+          "longTerm": "Long-term"
+        }
+      },
+      "investmentPriorities": {
+        "title": "Tell Us About Your Retirement Plans",
+        "subtitle": "What's more important to you?",
+        "options": {
+          "steadyIncome": "Steady Income - I prefer regular, stable payouts even if growth is lower",
+          "balancedMix": "Balanced Mix - I want a balance of income now and growth for the future",
+          "highGrowth": "High Growth - Focus on long-term growth, income is less important"
+        }
+      }
+    }
+  },
+  "Finch": {
+    "main": {
+      "title": "Connect with Finch",
+      "subtitle": "Connect your payroll system to get started",
+      "connectButton": "Connect with Finch",
+      "connectingButton": "Connecting...",
+      "errorMessage": "Failed to connect to Finch. Please try again."
+    },
+    "callback": {
+      "loading": {
+        "title": "Connecting to Finch...",
+        "subtitle": "Please wait while we complete the connection"
+      },
+      "error": {
+        "title": "Connection Failed",
+        "tryAgainButton": "Try Again",
+        "defaultError": "Failed to connect to Finch",
+        "noCodeError": "No authorization code received",
+        "callbackError": "Failed to complete the connection. Please try again."
+      },
+      "success": {
+        "title": "Successfully Connected!",
+        "defaultMessage": "Successfully connected to Finch!",
+        "continueButton": "Continue to Dashboard"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Company Plan Options",
+    "soloTitle": "Self-employed  Plan Option",
+    "note": "NOTE: If your company is setting up a 401(k) plan for the first time, it is entitled to get back up to $x of plan costs as tax credits regardless of the plan option selected. Moreover, Employer contributions to a 401(k) plan are tax-deductible for the company.",
+    "loading": {
+      "title": "Loading pricing plans..."
+    },
+    "error": {
+      "title": "Failed to load pricing",
+      "tryAgainButton": "Try Again"
+    },
+    "fallback": {
+      "message": "Using cached pricing data"
+    },
+    "features": {
+      "monthlyCost": "Monthly Cost: ${{cost}}",
+      "perParticipantFee": "Per Participant Fee: ${{fee}}",
+      "employerContribution": "Employer Contribution: {{contribution}}",
+      "employeeLimit": "Employee Limit: ${{limit}}",
+      "compliance": "Compliance: {{protection}}",
+      "taxCredit": "Tax Credit: {{credit}}"
+    },
+    "common": {
+      "period": "/per month",
+      "free": "Free",
+      "getStartedButton": "Get Started",
+      "popular": "Most popular"
+    }
+  },
+  "GetStarted": {
+    "planStartDate": {
+      "title": "Confirm Plan start date",
+      "startDate": {
+        "label": "Start date",
+        "description": "This is the date your plan becomes active.",
+        "selectLabel": "Select plan start date"
+      },
+      "faq": {
+        "question": "Why is the earliest start date {{earliestDate}}?",
+        "answer": "The earliest start date is based on your onboarding timeline and payroll schedule. If you need an earlier date, please contact support."
+      },
+      "importantDates": {
+        "title": "Important dates",
+        "onboarding": "Onboarding tasks due",
+        "invites": "Employee invites sent",
+        "paycheck": "Paycheck with first contribution"
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Accept & continue"
+      }
+    },
+    "authorize": {
+      "title": "Authorize Provider",
+      "subtitle": "I hereby authorize the following:",
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Accept & continue",
+        "saving": "Saving..."
+      },
+      "error": {
+        "generic": "An error occurred while saving. Please try again."
+      }
+    },
+    "trustee": {
+      "title": "Confirm Trustee",
+      "question": "Who is the Plan Trustee?",
+      "description": {
+        "part1": "The Custodian will operate as the Plan Trustee for GlidingPath plans unless specified otherwise.",
+        "planTrustee": "Plan Trustee",
+        "part2": "is the individual responsible for overseeing the 401(k) plan's assets. This is typically a fiduciary owner, CEO or other fiduciary authorized to manage the plan's financial responsibilities. The Trustee is a U.S. person with either a SSN or ITIN.",
+        "part3": "Would you like to appoint an individual other than the custodian as the Trustee for {{company}}?"
+      },
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      },
+      "forms": {
+        "appointDetails": "Please enter the details for the individual you wish to appoint as the Trustee.",
+        "title": "Title",
+        "legalName": "Legal name",
+        "emailId": "Email Id",
+        "placeholders": {
+          "title": "Enter title",
+          "legalName": "Enter the individuals legal name",
+          "emailId": "Enter email address"
+        }
+      },
+      "agreements": {
+        "emailAddresses": "I agree to provide Glidingpath with valid email addresses for all {{company}} employees and owners if they are not available in my payroll to ensure participants receive information about electronic enrollment notices and communications regarding their plan",
+        "investmentManager": "I hereby authorize and appoint Glidingpath Investments, LLC as the investment manager of the Plan within the meaning of section 3(38) of ERISA.",
+        "planAdministrator": "I hereby authorize and appoint Glidingpath RK, LLC as the Plan Administrator within the meaning of section 3(16) of ERISA."
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Accept & continue",
+        "saving": "Saving..."
+      },
+      "error": {
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "sign": {
+      "title": "Sign plan",
+      "error": {
+        "close": "×"
+      },
+      "documents": {
+        "title": "View all documents",
+        "description": {
+          "part1": "Your Basic Plan Document contains details for your 401(k) plan.",
+          "basicPlanDocument": "Basic Plan Document",
+          "part2": "contains details for your 401(k) plan."
+        },
+        "list": [
+          "Glidingpath RK, LLC 408(b)(2) fee disclosure",
+          "Glidingpath Investments, LLC 408(b)(2) fee disclosure",
+          "Glidingpath Service Agreement and Trust Document (contains BTC custody agreement)",
+          "401(k) Adoption Agreement"
+        ],
+        "viewButton": "View",
+        "notice": "The documents are being generated. You'll be notified to verify and sign them once they are ready."
+      },
+      "autoEnrollment": {
+        "message": "Eligible employees will be automatically enrolled at 5% employee contribution rate unless they choose their own rate or opt out."
+      },
+      "signPlan": {
+        "title": "Sign your plan",
+        "description": {
+          "part1": "By signing below, you are adopting the Plan as set forth in the Adoption Agreement and executing the Glidingpath Service Agreement.",
+          "part2": "Once signed, the plan will be legally established. You will need to sign an amendment to the plan if you choose to change or terminate your plan."
+        },
+        "confirmations": [
+          "I confirm that I have read all the documents above",
+          "I understand that any changes to my plan after signing could delay the start of my plan and first employee contributions."
+        ],
+        "form": {
+          "firstName": "First name",
+          "lastName": "Last name",
+          "firstNamePlaceholder": "Enter your first name",
+          "lastNamePlaceholder": "Enter your last name"
+        },
+        "signature": {
+          "label": "Signature: Investor Relations",
+          "placeholder": "Type your name in the field above to sign"
+        },
+        "agreement": {
+          "text": "By using Glidingpath, you agree to the",
+          "privacyPolicy": "Privacy Policy",
+          "and": "and",
+          "advBrochure": "ADV/2A Brochure"
+        }
+      },
+      "navigation": {
+        "back": "Back",
+        "signPlan": "Sign plan",
+        "signingPlan": "Signing plan..."
+      }
+    },
+    "reviewPricing": {
+      "title": "Review pricing",
+      "loading": {
+        "details": "Loading pricing details...",
+        "information": "Loading pricing information...",
+        "noPricing": "No pricing information available"
+      },
+      "error": {
+        "title": "Error Loading Pricing",
+        "tryAgain": "Try Again"
+      },
+      "taxCreditInfo": {
+        "text": "Eligible small businesses adopting a 401(k) plan for the first time may qualify for tax credits that cover their plan costs for the first 3 years. Check with your tax advisor to ensure eligibility and help with claims.",
+        "taxCredits": "tax credits",
+        "description": "",
+        "superscript": ""
+      },
+      "employerPays": {
+        "title": "Employer pays (Plan Administration)",
+        "baseFee": "Base fee",
+        "baseFeeAmount": "$89/month",
+        "participantFee": "Participant fee",
+        "participantFeeAmount": "$8 per participant/month",
+        "accountFee": "Account fee",
+        "accountFeeAmount": "None"
+      },
+      "employerPaysInvestment": {
+        "title": "Employer pays (Investment Management)",
+        "accountFee": "Account fee",
+        "accountFeeAmount": "0.15% of account balance/year"
+      },
+      "employeePays": {
+        "title": "Employee pays",
+        "accountFee": "Account fee",
+        "accountFeeAmount": "0.15% of account balance/year"
+      },
+      "units": {
+        "perMonth": "/month",
+        "perParticipantMonth": "per participant/month"
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Accept & continue"
+      },
+      "support": {
+        "text": "Want dedicated support and more custom options?",
+        "contactUs": "Contact us"
+      },
+      "accessibility": {
+        "moreInfo": "More info"
+      }
+    },
+    "reviewBusiness": {
+      "title": "Review your business details",
+      "error": {
+        "closeButton": "×"
+      },
+      "validation": {
+        "title": "Please fix the following errors:",
+        "required": "Required",
+        "payrollScheduleFormat": "{{schedule}} ({{days}} days before)"
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Save & continue",
+        "saving": "Saving..."
+      },
+      "fields": {
+        "legalName": "Legal Name of Business/Company",
+        "ein": "Employer Identification Number (EIN)",
+        "businessAddress": "Business address",
+        "mailingAddress": "Mailing address",
+        "street": "Street",
+        "apt": "Apt",
+        "city": "City",
+        "state": "State",
+        "postalCode": "Postal Code",
+        "phoneNumber": "Phone number",
+        "mailingDifferent": "Mailing address differs from business address",
+        "entityType": "Entity type",
+        "payrollProvider": "Payroll provider",
+        "payrollSchedule": "Payroll schedule",
+        "paySchedule": "Pay Schedule",
+        "payrollDaysBefore": "Number of days before pay day that payroll is submitted",
+        "estimatedEmployeeCount": "Estimated employee count",
+        "unionEmployees": "Union employees",
+        "leasedEmployees": "Leased employees",
+        "existingRetirementPlan": "Existing retirement plan",
+        "relatedEntities": "Related entities"
+      },
+      "placeholders": {
+        "legalName": "Please enter your business/company name",
+        "ein": "Enter your EIN or TIN",
+        "street": "Street",
+        "apt": "Apt",
+        "city": "City",
+        "state": "State",
+        "postalCode": "Postal Code",
+        "phoneNumber": "Phone number",
+        "entityType": "Select company's entity type",
+        "payrollProvider": "Select your payroll",
+        "paySchedule": "Pay schedule",
+        "estimatedEmployeeCount": "Select employee count",
+        "selectOption": "Select option"
+      },
+      "helpText": {
+        "ein": "Please provide your Employer Identification Number (EIN) or Tax Identification Number (TIN)",
+        "businessAddress": "Where is your primary place of business? We need this to verify your business only.",
+        "mailingAddress": "Where is your mailing address?",
+        "entityType": "What is your company's entity type?",
+        "payrollProvider": "Select your payroll provider?",
+        "payrollSchedule": "This is the day's of the month you pay your employees. We'll use this to determine your plan's first payroll date with contributions.",
+        "payrollScheduleAdditional": "For 92% of businesses, there is only 1 payroll schedule. If you pay different employees on different dates,"
+      },
+      "actions": {
+        "addPayrollSchedule": "add another payroll schedule"
+      },
+      "validationErrors": {
+        "legalName": "Legal business name is required",
+        "ein": "EIN is required",
+        "einFormat": "EIN must be in format XX-XXXXXXX",
+        "businessAddress": "Business address is required",
+        "street": "Street address is required",
+        "city": "City is required",
+        "state": "State is required",
+        "postal": "ZIP code is required",
+        "entityType": "Entity type is required",
+        "payrollProvider": "Payroll provider is required",
+        "payrollSchedule": "Payroll schedule is required",
+        "estimatedEmployeeCount": "Estimated employee count is required",
+        "unionEmployees": "Union employees information is required",
+        "leasedEmployees": "Leased employees information is required",
+        "existingRetirementPlan": "Existing retirement plan information is required",
+        "relatedEntities": "Related entities information is required"
+      }
+    },
+    "starter": {
+      "title": "Design the Starter 401(k) plan",
+      "description": "Configure your plan to meet your company's needs and compliance requirements.",
+      "error": {
+        "closeButton": "×"
+      },
+      "employeeEligibility": {
+        "title": "Employee eligibility",
+        "description": "Employees who meet the following criteria will be invited to enroll in this plan.",
+        "minimumAge": "Minimum age",
+        "minimumAgeValue": "At least {{age}} years old",
+        "timeEmployed": "Time employed",
+        "timeEmployedValue": "{{time}} months",
+        "noRequirement": "No requirement",
+        "exclusions": "Exclusions",
+        "noExclusions": "No exclusions",
+        "selectFromList": "Select from list",
+        "locked": "Locked"
+      },
+      "autoEnrolled": {
+        "title": "Auto-enrolled employees",
+        "description": "The IRS requires employees to be automatically enrolled at the following employee contribution rate unless they choose their own rate or opt out.",
+        "defaultRate": "Default employee contribution rate",
+        "annualIncrease": "Annual increase",
+        "minimumIncrease": "1% annual increase until 10%",
+        "customIncrease": "{{rate}} annual increase until {{max}}",
+        "info": "If the rate is below 10%, the IRS requires yearly increases until it reaches that threshold. You can set the rate to 10% or higher to avoid the escalation."
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Save & continue"
+      }
+    },
+    "traditional": {
+      "title": "Design the Traditional 401(k) plan",
+      "description": "Configure your plan to meet your company's needs and compliance requirements.",
+      "error": {
+        "closeButton": "×"
+      },
+      "employerContribution": {
+        "title": "Set up Employer contribution",
+        "subtitle": "Select an employer contribution to support employee retirement savings.",
+        "description": "Determine how much to contribute to your employee's retirement",
+        "contributionType": "What type of employer contribution will you provide?",
+        "percentageQuestion": "What percentage of an employee's pay will you contribute?",
+        "vestingQuestion": "When will your employees own the contributions? (i.e., Vesting Schedule)",
+        "exclusions": "Exclusions",
+        "selectExclusions": "Select exclusions"
+      },
+      "employeeEligibility": {
+        "title": "Employee eligibility",
+        "description": "Employees who meet the following criteria will be invited to enroll in this plan.",
+        "minimumAge": "Minimum age",
+        "timeEmployed": "Time employed"
+      },
+      "autoEnrolled": {
+        "title": "Auto-enrolled employees",
+        "description": "The IRS requires employees to be automatically enrolled at the following employee contribution rate unless they choose their own rate or opt out.",
+        "defaultRate": "Default employee contribution rate",
+        "defaultRateNote": "The minimum contribution rate needed to receive the full employer match is 5%.",
+        "annualIncrease": "Annual increase",
+        "annualIncreaseRate": "How much will the contribution rate increase by annually?",
+        "maximumContributionRate": "What is the maximum contribution rate?",
+        "minimumIncrease": "2% annual increase until 10%",
+        "customIncrease": "{{rate}} annual increase until {{max}}",
+        "infoBox": "The IRS requires annual increases for auto-enrolled employees with a default contribution rate below 10%, to help boost their savings."
+      },
+      "profitSharing": {
+        "title": "Profit sharing feature",
+        "description": "Add Profit Sharing to your 401(k) plan and decide how much to contribute each year — discretionary, flexible, and tax-deductible.",
+        "defaultContribution": "Default contribution",
+        "profitSharingFormula": "Profit sharing formula",
+        "vestingSchedule": "Vesting schedule",
+        "proRataNote": "If you choose to offer profit sharing the vesting schedule determines when the employee will own the contributions."
+      },
+      "navigation": {
+        "back": "Back",
+        "saveAndContinue": "Save & continue"
+      }
+    },
+    "safeHarbor": {
+      "main": {
+        "title": "Set a Safe Harbor employer contribution",
+        "error": {
+          "closeButton": "×"
+        },
+        "options": {
+          "basic": {
+            "label": "4% basic match",
+            "description": "You'll match 100% of the first 3% of employee pay, then 50% of the next 2%."
+          },
+          "custom": {
+            "label": "Custom match",
+            "description": "Choose to match between 3.5% - 6% of an employee's pay, and set when they will own the contributions."
+          },
+          "nonelective": {
+            "label": "Nonelective contribution",
+            "description": "Choose a minimum of 3% to contribute to any eligible employee's 401(k) plan regardless of whether they contribute or not."
+          }
+        },
+        "popular": "Most popular",
+        "navigation": {
+          "back": "Back",
+          "saveAndContinue": "Save and continue",
+          "saving": "Saving..."
+        }
+      },
+      "summary": {
+        "title": "Design the Safe Harbor 401(k) plan",
+        "description": "Configure your plan to meet your company's needs and compliance requirements.",
+        "employerContribution": {
+          "title": "Set up Employer Safe Harbor contribution",
+          "subtitle": "Select a Safe Harbor contribution to ensure compliance and support employee retirement savings.",
+          "description": "Determine how much to contribute to your employee's retirement",
+          "contributionType": "What type of employer contribution will you provide?",
+          "percentageQuestion": "What percentage of an employee's pay will you contribute?",
+          "vestingQuestion": "When will your employees own the contributions?",
+          "exclusions": "Exclusions",
+          "selectExclusions": "Select exclusions",
+          "infoBox": "You'll match 100% on the first 3% of employee pay, then you'll match 50% on the next 2%. Employees own the contributions as soon as they're made.",
+          "safeHarborNote": "For a Safe Harbor plan the employer contribution is immediate vesting."
+        },
+        "employeeEligibility": {
+          "title": "Employee eligibility",
+          "description": "Employees who meet the following criteria will be invited to enroll in this plan.",
+          "minimumAge": "Minimum age",
+          "timeEmployed": "Time employed"
+        },
+        "autoEnrolled": {
+          "title": "Auto-enrolled employees",
+          "description": "The IRS requires employees to be **automatically enrolled** with a default employee contribution rate unless they choose their own rate or opt out.",
+          "defaultRate": "Default employee contribution rate",
+          "defaultRateNote": "The minimum contribution rate needed to receive the full employer match is 5%.",
+          "annualIncrease": "Annual increase",
+          "annualIncreaseRate": "how much will the contribution rate increase by annually ?",
+          "maximumContributionRate": "What is the maximum contribution rate?",
+          "minimumIncrease": "1% annual increase until 10%",
+          "customIncrease": "{{rate}} annual increase until {{max}}",
+          "infoBox": "The IRS requires annual increases for auto-enrolled employees with a default contribution rate below 10%, to help boost their savings."
+        },
+        "profitSharing": {
+          "title": "Profit sharing feature",
+          "description": "Add Profit Sharing to your 401(k) plan and decide how much to contribute each year — discretionary, flexible, and tax-deductible.",
+          "defaultContribution": "Default contribution",
+          "profitSharingFormula": "Profit sharing formula",
+          "profitSharingFormulaDescription": "If you choose to offer profit sharing, this is how it will be calculated. You can always change your mind when the time comes.",
+          "vestingSchedule": "Vesting schedule",
+          "locked": "Locked",
+          "enterpriseFeature": "Enterprise feature",
+          "formulas": {
+            "proRata": {
+              "title": "Pro-rata",
+              "description": "Participants receive an amount equal to a specified percentage of their compensation."
+            },
+            "flatDollar": {
+              "title": "Flat dollar",
+              "description": "Every employee receives the same amount, regardless of their total compensation."
+            },
+            "newComparability": {
+              "title": "New comparability",
+              "description": "Choose a total amount and distribute amongst employees to maximise amounts for owners (best for older owners with a younger work force)"
+            }
+          },
+          "proRataNote": "If you choose to offer profit sharing the vesting schedule determines when the employee will own the contributions."
+        },
+        "navigation": {
+          "back": "Back",
+          "saveAndContinue": "Save & continue"
+        }
+      },
+      "employerContribution": {
+        "title": "Set an employer contribution",
+        "error": {
+          "closeButton": "×"
+        },
+        "mainQuestion": "Do you want to offer an employer match?",
+        "options": {
+          "yes": "Yes",
+          "no": "No"
+        },
+        "matchSection": {
+          "title": "Match",
+          "description": "What percentage of an employee's contributions will you match?"
+        },
+        "maxSection": {
+          "title": "Up to a maximum",
+          "description": "Up to what percentage of employee pay"
+        },
+        "vestingSection": {
+          "title": "Vesting Schedule",
+          "seeAllOptions": "See all options",
+          "description": "When will your employees own the contributions?"
+        },
+        "summary": "You'll match {{match}} of an employee's contributions, up to {{max}} of their pay. Employees own the contributions as soon as they're made.",
+        "safeHarborNote": "By contributing 0.5% more, you can switch to a Safe Harbor 401(k), avoiding the annual nondiscrimination testing required by a traditional 401(k).",
+        "learnMore": "Learn more",
+        "faq": {
+          "question": "What if I change my mind?",
+          "answer": "Adjusting future employer contribution is simple and can be done with 30 days advance notice. However, changing the vesting schedule is more complex. Generally, changes that benefit employees are easier to implement than those that don't. If you're unsure, starting with a longer vesting period is recommended to keep your options open."
+        },
+        "contactNote": "If you want to learn about other options, contact us",
+        "navigation": {
+          "back": "Back",
+          "saveAndContinue": "Save and continue",
+          "saving": "Saving..."
+        }
+      }
+    },
+    "modals": {
+      "businessDetails": {
+        "ein": {
+          "title": "EIN",
+          "description": "Please provide your Employer Identification Number (EIN) or Tax Identification Number (TIN).",
+          "placeholder": "Enter your EIN or TIN",
+          "faq": {
+            "question": "Where can I find my company's EIN or TIN?",
+            "answer": "You can find your EIN on tax forms, IRS letters, or by contacting your payroll provider."
+          }
+        },
+        "businessAddress": {
+          "title": "Business address",
+          "description": "Where is your primary place of business? We need this to verify your business only.",
+          "street": "Street",
+          "apt": "Apt",
+          "city": "City",
+          "state": "State",
+          "postal": "Postal code",
+          "phone": "Phone number",
+          "mailingDiffers": "Mailing address differs from business address"
+        },
+        "entityType": {
+          "title": "Entity type",
+          "description": "What is your company's entity type?",
+          "placeholder": "Entity type"
+        },
+        "payrollProvider": {
+          "title": "Payroll provider",
+          "description": "Who is your payroll provider?",
+          "placeholder": "Payroll provider"
+        },
+        "payrollSchedule": {
+          "title": "Payroll schedule",
+          "description": "How often do you pay your employees?",
+          "schedule": "Schedule",
+          "daysBefore": "Days before payroll",
+          "placeholder": "Schedule"
+        },
+        "legalName": {
+          "title": "Legal business name",
+          "description": "What is your company's legal business name?",
+          "placeholder": "Enter your legal business name"
+        },
+        "estimatedEmployeeCount": {
+          "title": "Estimated employee count",
+          "description": "How many employees do you expect to have?",
+          "placeholder": "Employee count"
+        },
+        "unionEmployees": {
+          "title": "Union employees",
+          "description": "Do you have any union employees?",
+          "placeholder": "Union employees"
+        },
+        "leasedEmployees": {
+          "title": "Leased employees",
+          "description": "Do you have any leased employees?",
+          "placeholder": "Leased employees"
+        },
+        "existingRetirementPlan": {
+          "title": "Existing retirement plan",
+          "description": "Do you currently have an existing retirement plan?",
+          "placeholder": "Existing retirement plan"
+        },
+        "relatedEntities": {
+          "title": "Related entities",
+          "description": "Do you have any related entities?",
+          "placeholder": "Related entities"
+        }
+      },
+      "contributionRate": {
+        "title": "What should the default employee contribution rate be?",
+        "description": "Eligible employees will be automatically enrolled at the following employee contribution rate unless they choose their own rate or opt out.",
+        "info": "If this rate is below 10%, the IRS requires annual increases until it reaches that threshold. You can set the rate to 10% or higher to remove the escalation.",
+        "minimumContribution": "The minimum contribution rate needed to receive the full employer match is 3%."
+      },
+      "annualIncrease": {
+        "title": "How much should auto-enrolled employee contributions increase by annually?",
+        "description": "The IRS requires an annual increase for auto-enrolled employees whose default contribution rate is under 10%, aiming to boost employee savings.",
+        "chooseOptions": "Choose between two options:",
+        "minimumRequired": "Minimum required",
+        "minimumDescription": "1% annual increase until it reaches 10%",
+        "customize": "Customize the annual increase rate",
+        "annualIncreaseLabel": "How much will the contribution rate increase by annually?",
+        "maxContributionLabel": "What is the maximum contribution rate?",
+        "faqQuestion": "What if I don't want to include an annual increase?",
+        "faqAnswer": "You can opt out of annual increases, but this may affect compliance with IRS requirements and could impact employee savings growth."
+      },
+      "limitations": {
+        "title": "Understanding the limitations of a Starter 401(k) plan",
+        "description": "A Starter 401(k) plan can be a great beginner plan for companies, however you should be aware of its limitations",
+        "limitations": [
+          "No employer contributions allowed.",
+          "Can't change to a standard 401(K) until Jan 1, 2026",
+          "$6,000 employee contribution limit."
+        ],
+        "seeOtherPlans": "See other plans",
+        "understand": "I Understand",
+        "saving": "Saving..."
+      },
+      "nondiscrimination": {
+        "title": "Nondiscrimination testing acknowledgment",
+        "description": "With a Traditional 401(k), you'll have to pass annual nondiscrimination tests. If your plan fails testing, corrections will be required, which may include:",
+        "corrections": {
+          "0": "Mandatory employer contributions to non-highly compensated or non-key employees, and/or",
+          "1": "Refund of 401(k) contributions to highly compensated employees."
+        },
+        "complianceNote": "Glidingpath provides compliance monitoring to help identify potential issues and manage required corrections.",
+        "seeOtherPlans": "See other plans",
+        "understand": "I understand"
+      },
+      "employerContribution": {
+        "title": "Employer Contribution",
+        "description": "A Safe Harbor plan requires a 3% minimum contribution. To contribute less, switch to a Traditional 401(k). To contribute more or add a longer vesting schedule, contact us.",
+        "contributionType": {
+          "label": "Contribution type",
+          "tooltip": "Type of employer contribution"
+        },
+        "contributionPercentage": {
+          "label": "Contribution Percentage",
+          "tooltip": "What percentage of pay will you contribute?"
+        },
+        "vestingSchedule": {
+          "label": "Vesting schedule",
+          "tooltip": "When will employees own the contributions?"
+        },
+        "summary": "You'll match 100% on the first 3% of employee pay, then you'll match 50% on the next 2%. Employees own the contributions as soon as they're made.",
+        "faq": {
+          "qaca": {
+            "question": "What is QACA and how do I set one up?",
+            "answer": "QACA (Qualified Automatic Contribution Arrangement) offers a lower employer match commitment compared to traditional safe harbor plans, making them a cost-effective option for employers. These plans also allow for a vesting schedule instead of immediate vesting, which can help with employee retention.\n\nTo set up a QACA, you'll need to choose:\n• A vesting schedule (not immediate), OR\n• A 3.5% employer match."
+          },
+          "changeMind": {
+            "question": "What if I change my mind?",
+            "answer": "Adjusting future employer contribution is simple and can be done with 30 days advance notice. However, changing the vesting schedule is more complex. Generally, changes that benefit employees are easier to implement than those that don't. If you're unsure, starting with a longer vesting period is recommended to keep your options open. Learn more"
+          }
+        }
+      },
+      "minimumAge": {
+        "title": "Minimum age",
+        "description": "Set the minimum age required for your employees to be eligible to participate.",
+        "faq": {
+          "question": "Are part-time employees or temp workers eligible?",
+          "answer": "Part-time and temp workers may be eligible depending on your plan's specific requirements and federal regulations. Check your plan details or consult your provider for more information."
+        }
+      },
+      "timeEmployed": {
+        "title": "Time employed",
+        "description": "Set the minimum employment length required for employees to be eligible to participate. This is based on elapsed time (not hours of service).",
+        "newHires": {
+          "title": "New hires",
+          "description": "Employees hired after the plan start date. This will be the default service requirement."
+        },
+        "existingEmployees": {
+          "title": "Existing employees",
+          "description": "Employees working at the time of the plan start date.",
+          "value": "0 months"
+        },
+        "locked": "Locked",
+        "info": "Did you know\nOver 50% of our plans allow their employees to participate immediately upon hire.",
+        "faq": {
+          "partTime": {
+            "question": "Are part-time employees or temp workers eligible?",
+            "answer": "Part-time and temp workers may be eligible depending on your plan's specific requirements and federal regulations. Check your plan details or consult your provider for more information."
+          },
+          "rehired": {
+            "question": "What about re-hired employees?",
+            "answer": "Re-hired employees may be subject to different eligibility rules. Please review your plan document or consult your provider for details."
+          }
+        }
+      },
+      "profitSharingFormula": {
+        "title": "Set a profit sharing formula",
+        "description": "If you choose to offer profit sharing, this is how it will be calculated. You can always change your mind when the time comes.",
+        "label": "Profit Sharing Formula",
+        "helpText": "Select the formula that best fits your business needs",
+        "info": "The formula you choose will determine how profit sharing contributions are distributed among eligible employees.",
+        "options": {
+          "proRata": {
+            "label": "Pro-rata",
+            "description": "Participants receive an amount equal to a specified percentage of their total compensation."
+          },
+          "flatDollar": {
+            "label": "Flat dollar",
+            "description": "Every employee receives the same amount, regardless of their total compensation."
+          },
+          "newComparability": {
+            "label": "New comparability",
+            "description": "Choose a total amount and we distribute amongst employees to maximize amounts for owners (best for older owners with a younger work force).",
+            "badge": "Enterprise feature"
+          }
+        }
+      },
+      "vestingSchedule": {
+        "title": "Set a profit sharing vesting schedule",
+        "description": "If you choose to offer profit sharing, this is when employees will gain ownership of the contributions (vesting).",
+        "label": "What vesting schedule do you want?",
+        "placeholder": "Select a vesting schedule",
+        "loading": {
+          "title": "Loading...",
+          "message": "Loading vesting schedules..."
+        },
+        "error": {
+          "title": "Error",
+          "message": "Failed to load vesting schedules"
+        },
+        "faq": {
+          "question": "What if I change my mind?",
+          "answer": "Adjusting future vesting schedules may be possible, but can be complex. Generally, changes that benefit employees are easier to implement. If you're unsure, starting with a longer vesting period is recommended to keep your options open."
+        }
+      }
+    }
+  },
+  "Login": {
+    "title": "Login",
+    "email": {
+      "label": "Email ID:",
+      "placeholder": "Enter your mail id"
+    },
+    "password": {
+      "label": "Password:",
+      "placeholder": "Enter your password"
+    },
+    "forgotPassword": "Forgot Password?",
+    "submitButton": "Sign In",
+    "signUpPrompt": "Don’t have an account?",
+    "signUpLink": "Sign Up",
+    "accessibility": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "error": "Please enter a valid email and password"
+  },
+  "Select": {
+    "title": "Select your role"
+  },
+  "Interested": {
+    "title": "I am interested in",
+    "submitButton": "Save & continue",
+    "backButton": "Back",
+    "options": {
+      "0": {
+        "name": "A 401(k) Plan for my Company",
+        "desc": "I’m a business owner/ administrator exploring options for a new 401(k) plan or transfer of an existing 401(k) plan."
+      },
+      "1": {
+        "name": "A 401(k) Plan for my Client",
+        "desc": "I’m a financial advisor/ benefits consultant looking for a suitable 401(k) plan for my client."
+      },
+      "2": {
+        "name": "Accessing my 401(k) Plan",
+        "desc": "I’m a participant looking to access my employer’s existing 401(k) plan at GlidingPath."
+      }
+    }
+  },
+  "NotificationsPanel": {
+    "title": "Notifications",
+    "viewAll": "View all",
+    "notifications": [
+      {
+        "title": "Lorem ipsum dolor sit amet, consectetur.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet, consectetur.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "PlanAssetChart": {
+    "title": "Plan Asset",
+    "value": "7,2141,997.5 (25%)",
+    "tooltip": {
+      "value": "{{value}}"
+    }
+  },
+  "TotalRetirementSavingCard": {
+    "title": "Total Retirement Saving",
+    "value": "7,214,997.5 (25%)",
+    "tooltip": {
+      "value": "{{value}}"
+    }
+  },
+  "ParticipantsDonut": {
+    "title": "Participants",
+    "active": "Active",
+    "inactive": "Inactive",
+    "percentage": "80%",
+    "count": "2 of 3"
+  },
+  "ComplianceStatusCard": {
+    "title": "Compliance Status",
+    "safeHarbor2021": "Safe Harbor (2021)",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "viewDashboard": "View compliance dashboard"
+  },
+  "ContributionsBarChart": {
+    "title": "2025 Year-to-Date Contributions",
+    "filters": {
+      "all": "ALL",
+      "oneMonth": "1M",
+      "sixMonths": "6M",
+      "oneYear": "1Y",
+      "ytd": "YTD"
+    },
+    "tooltip": {
+      "proposedEmployee": "Proposed Employee",
+      "proposedEmployer": "Proposed Employer"
+    },
+    "summary": {
+      "proposedEmployee": "Proposed Employee",
+      "proposedEmployer": "Proposed Employer",
+      "ytdEmployee": "YTD Employee",
+      "ytdEmployer": "YTD Employer"
+    }
+  },
+  "DocumentViewerModal": {
+    "pdf": {
+      "openInNewTab": "Open PDF in new tab"
+    },
+    "navigation": {
+      "back": "Back",
+      "nextDocument": "Next document",
+      "finish": "Finish"
+    },
+    "actions": {
+      "saveDocument": "Save document",
+      "saved": "Saved"
+    },
+    "counter": "{{current}}/{{total}} documents"
+  },
+  "Table": {
+    "addButton": "Button"
+  },
+  "InvestmentPlan": {
+    "title": "Your Investment Plan",
+    "subtitle": "We've chosen the best target date fund based on your retirement age.",
+    "autoSelected": "Auto-Selected",
+    "retirementFund": {
+      "title": "2045 Retirement Fund",
+      "description": "A professionally managed fund that automatically adjusts your investment mix as you get closer to retirement.",
+      "features": {
+        "autoRebalancing": "Auto-Rebalancing",
+        "lowFees": "Low Fees",
+        "professionalManagement": "Professional Management"
+      }
+    },
+    "allocationMix": {
+      "title": "Current Allocation Mix",
+      "investments": {
+        "stockBond1": "Stock or bond 1",
+        "stockBond2": "Stock or bond 2",
+        "stockBond3": "Stock or bond 3",
+        "stockBond4": "Stock or bond 4",
+        "stockBond5": "Stock or bond 5"
+      }
+    },
+    "whyThisMix": {
+      "title": "Why This Mix Works for You",
+      "description": "Since you have 35+ years until retirement, this allocation emphasizes growth through stocks while maintaining some stability with bonds. As you get closer to 2060, the fund will automatically shift to become more conservative."
+    },
+    "actions": {
+      "continueConfirm": "Continue & Confirm",
+      "customizeInvestments": "Want to customize your investments instead?"
+    }
+  },
+  "ContributionsCard": {
+    "title": "Contributions",
+    "viewAll": "View all",
+    "currentPeriodContribution": "Current Period Contribution",
+    "perPeriod": "per period",
+    "fromYou": "from you",
+    "fromEmployer": "from employer",
+    "annualContribution": "Annual Contribution",
+    "contributionIn2024": "contribution in 2024",
+    "manageContributions": "Manage Contributions"
+  },
+  "ParticipantLogin": {
+    "title": "Identity Verification",
+    "subtitle": "Please provide the following information to verify your identity",
+    "lastName": {
+      "label": "Last Name:",
+      "placeholder": "Enter your name"
+    },
+    "ssnOrEmployeeId": {
+      "label": "Last 4 digits of SSN or Employee ID:",
+      "placeholder": "xxxx"
+    },
+    "dateOfBirth": {
+      "label": "Date of Birth:",
+      "placeholder": "dd-mm-yyyy"
+    },
+    "securityCheckbox": "Security reassurance details will be here",
+    "securityBanner": "Your info is encrypted and secure",
+    "submitButton": "Verify Identity",
+    "verificationFailed": {
+      "title": "Verification Failed",
+      "message": "The information provided does not match our records. Please check your details and try again."
+    },
+    "errors": {
+      "lastNameRequired": "Last name is required",
+      "ssnRequired": "SSN or Employee ID is required",
+      "ssnMinLength": "Please enter at least 4 digits",
+      "dateRequired": "Date of birth is required",
+      "dateFormat": "Please enter date in dd-mm-yyyy format"
+    },
+    "accessibility": {
+      "showSSN": "Show SSN",
+      "hideSSN": "Hide SSN"
+    }
+  }
+}

@@ -1,0 +1,1225 @@
+{
+  "HomePage": {
+    "title": "Hola mundo!"
+  },
+  "DashboardHeader": {
+    "greeting": "Hola {{name}}",
+    "companyName": "{{name}}"
+  },
+  "Dashboard": {
+    "languageSwitch": {
+      "english": "English",
+      "spanish": "Español"
+    }
+  },
+  "Sidebar": {
+    "logo": "GlidingPath",
+    "navigation": {
+      "dashboard": "Panel",
+      "participants": "Participantes",
+      "roster": "Lista",
+      "activity": "Actividad",
+      "reports": "Reportes",
+      "payroll": "Nómina"
+    },
+    "secondary": {
+      "notifications": "Notificaciones",
+      "settings": "Configuración",
+      "support": "Soporte"
+    },
+    "user": {
+      "welcomeBack": "Bienvenido de vuelta",
+      "userName": "Johnathan",
+      "logout": "Cerrar sesión"
+    },
+    "accessibility": {
+      "openSidebar": "Abrir barra lateral",
+      "closeSidebar": "Cerrar barra lateral",
+      "expandSidebar": "Expandir barra lateral",
+      "collapseSidebar": "Contraer barra lateral",
+      "sidebarOverlay": "Superposición de barra lateral"
+    }
+  },
+  "Register": {
+    "navigation": {
+      "back": "Atrás",
+      "next": "Siguiente",
+      "submit": "Enviar",
+      "signUp": "Registrarse"
+    },
+    "form": {
+      "title": "Crear tu Cuenta",
+      "fields": {
+        "organizationName": "Nombre de la Organización",
+        "email": "Dirección de Correo Electrónico",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "password": "Contraseña",
+        "confirmPassword": "Confirmar Contraseña"
+      },
+      "placeholders": {
+        "organizationName": "Ingresa el nombre de tu organización",
+        "email": "Ingresa tu dirección de correo electrónico",
+        "firstName": "Ingresa tu nombre",
+        "lastName": "Ingresa tu apellido",
+        "password": "Ingresa tu contraseña",
+        "confirmPassword": "Confirma tu contraseña"
+      },
+      "errors": {
+        "organizationName": "El nombre de la organización es requerido",
+        "organizationNameNumbers": "El nombre de la organización no puede ser solo números",
+        "email": "El correo electrónico es requerido",
+        "emailInvalid": "Por favor ingresa una dirección de correo electrónico válida",
+        "firstName": "El nombre es requerido",
+        "lastName": "El apellido es requerido",
+        "password": "La contraseña es requerida",
+        "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+        "confirmPassword": "Por favor confirma tu contraseña",
+        "confirmPasswordMatch": "Las contraseñas no coinciden"
+      },
+      "submitButton": "Registrarse",
+      "submittingButton": "Creando Cuenta..."
+    },
+    "steps": {
+      "employees": {
+        "title": "¿Actualmente tienes empleados W-2 además de ti mismo o tu cónyuge?",
+        "options": [
+          "No, y no planeo contratar en el futuro cercano",
+          "No, pero tengo la intención de contratar en los próximos 12 meses",
+          "Sí, tengo empleados W-2 activos"
+        ]
+      },
+      "email": {
+        "title": "Correo Electrónico:",
+        "placeholder": "Ingresa tu correo electrónico",
+        "error": "Por favor, ingrese una dirección de correo electrónico válida"
+      },
+      "describe": {
+        "title": "¿Cuál de las siguientes opciones mejor describe a tu negocio?",
+        "subtitle": "",
+        "options": [
+          "Soy un contratista independiente/freelancer/autónomo con ingresos 1099.",
+          "Soy un propietario de negocio con ningún empleado W-2 (excepto cónyuge).",
+          "Soy un propietario de negocio con empleados W-2 activos (excepto yo/mi cónyuge).",
+          "Represento a una empresa que tiene empleados W-2 activos."
+        ]
+      },
+      "priority": {
+        "title": "¿Cuál es tu prioridad principal al elegir un plan 401(k)?",
+        "subtitle": "",
+        "options": [
+          "Maximizar ahorros para propietarios de negocios y cónyuge",
+          "Habilitar a los empleados a ahorrar para su retiro",
+          "Retener el mejor talento",
+          "Cumplir con el mandato estatal de ofrecer un plan de retiro",
+          "No estoy seguro"
+        ]
+      },
+      "businessSize": {
+        "title": "¿Cuál es el tamaño de tu negocio/ empresa?",
+        "subtitle": "",
+        "options": [
+          "0-5 empleados",
+          "6-50 empleados",
+          "51-99 empleados",
+          "101-500 empleados",
+          "500+ empleados"
+        ]
+      },
+      "w2Employees": {
+        "title": "¿Tienes empleados W-2 además del propietario(s) y su(s) cónyuge(s)?",
+        "options": [
+          "No, y no planeo contratar ninguno.",
+          "No, pero tengo la intención de contratar en los próximos 12 meses.",
+          "Sí, actualmente tengo empleados."
+        ]
+      },
+      "retirementPlan": {
+        "title": "¿Tu negocio/ empresa actualmente ofrece un plan de retiro?",
+        "options": ["Sí", "No"]
+      },
+      "multipleBusinesses": {
+        "title": "¿Tú o el propietario del negocio operan más de un negocio?",
+        "options": ["Sí", "No"]
+      },
+      "payrollProvider": {
+        "title": "¿Quién es tu proveedor de nómina ?",
+        "options": ["Proveedor 1", "Proveedor 2", "Proveedor 3", "otros"]
+      }
+    }
+  },
+  "Finch": {
+    "main": {
+      "title": "Conectar con Finch",
+      "subtitle": "Conecta tu sistema de nómina para comenzar",
+      "connectButton": "Conectar con Finch",
+      "connectingButton": "Conectando...",
+      "errorMessage": "Error al conectar con Finch. Por favor, inténtalo de nuevo."
+    },
+    "callback": {
+      "loading": {
+        "title": "Conectando a Finch...",
+        "subtitle": "Por favor espera mientras completamos la conexión"
+      },
+      "error": {
+        "title": "Conexión Fallida",
+        "tryAgainButton": "Intentar de Nuevo",
+        "defaultError": "Error al conectar con Finch",
+        "noCodeError": "No se recibió código de autorización",
+        "callbackError": "Error al completar la conexión. Por favor, inténtalo de nuevo."
+      },
+      "success": {
+        "title": "¡Conectado Exitosamente!",
+        "defaultMessage": "¡Conectado exitosamente a Finch!",
+        "continueButton": "Continuar al Panel"
+      }
+    }
+  },
+  "Pricing": {
+    "title": "Opciones de Plan de la Compañía",
+    "soloTitle": "Opciones de Plan 401(k) Autónomo",
+    "note": "NOTA: Si su empresa está configurando un plan 401(k) por primera vez, tiene derecho a obtener hasta $x de los costos del plan como créditos fiscales independientemente de la opción de plan seleccionada. Además, las contribuciones del empleador a un plan 401(k) son deducibles para la empresa.",
+    "loading": {
+      "title": "Cargando planes de precios..."
+    },
+    "error": {
+      "title": "Error al cargar precios",
+      "tryAgainButton": "Intentar de Nuevo"
+    },
+    "fallback": {
+      "message": "Usando datos de precios en caché"
+    },
+    "features": {
+      "monthlyCost": "Costo Mensual: ${{cost}}",
+      "perParticipantFee": "Tarifa por Participante: ${{fee}}",
+      "employerContribution": "Contribución del Empleador: {{contribution}}",
+      "employeeLimit": "Límite del Empleado: ${{limit}}",
+      "compliance": "Cumplimiento: {{protection}}",
+      "taxCredit": "Crédito Fiscal: {{credit}}"
+    },
+    "common": {
+      "period": "/por mes",
+      "free": "Gratis",
+      "getStartedButton": "Comenzar",
+      "popular": "Más popular"
+    }
+  },
+  "GetStarted": {
+    "planStartDate": {
+      "title": "Confirmar fecha de inicio del Plan",
+      "startDate": {
+        "label": "Fecha de inicio",
+        "description": "Esta es la fecha en que tu plan se vuelve activo.",
+        "selectLabel": "Seleccionar fecha de inicio del plan"
+      },
+      "faq": {
+        "question": "¿Por qué la fecha de inicio más temprana es {{earliestDate}}?",
+        "answer": "La fecha de inicio más temprana se basa en tu cronograma de incorporación y horario de nómina. Si necesitas una fecha anterior, por favor contacta soporte."
+      },
+      "importantDates": {
+        "title": "Fechas importantes",
+        "onboarding": "Tareas de incorporación vencen",
+        "invites": "Invitaciones de empleados enviadas",
+        "paycheck": "Nómina con primera contribución"
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Aceptar y continuar"
+      }
+    },
+    "authorize": {
+      "title": "Autorizar Proveedor",
+      "subtitle": "Por la presente autorizo lo siguiente:",
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Aceptar y continuar",
+        "saving": "Guardando..."
+      },
+      "error": {
+        "generic": "Ocurrió un error al guardar. Por favor, inténtelo de nuevo."
+      }
+    },
+    "EmployeeLogin": {
+      "navigation": {
+        "back": "Atrás",
+        "next": "Siguiente",
+        "signIn": "Iniciar Sesión",
+        "complete": "Completar Configuración"
+      },
+      "steps": {
+        "investmentPath": {
+          "title": "Elige tu Ruta de Inversión",
+          "subtitles": "Obtén una cartera personalizada según tus objetivos y perfil de riesgo.|Mantente en el camino con el fondo de fecha objetivo de tu plan.|Elige tus propias inversiones y establece asignaciones manualmente.",
+          "options": {
+            "personalize": "Personalizar",
+            "default": "Predeterminado",
+            "custom": "Personalizado"
+          }
+        },
+        "email": {
+          "title": "Correo Electrónico:",
+          "placeholder": "Ingresa tu correo de trabajo",
+          "error": "Por favor, ingrese una dirección de correo electrónico válida"
+        },
+        "riskTolerance": {
+          "title": "¿Cuál es tu tolerancia al riesgo?",
+          "options": {
+            "conservative": "Conservador - Prefiero menor riesgo con rendimientos estables",
+            "moderate": "Moderado - Me siento cómodo con riesgo y rendimientos equilibrados",
+            "aggressive": "Agresivo - Estoy dispuesto a tomar mayores riesgos por potencialmente mayores rendimientos"
+          }
+        },
+        "retirementGoal": {
+          "title": "¿Cuál es tu objetivo de retiro?",
+          "options": {
+            "comfortable": "Retiro cómodo - Mantener mi estilo de vida actual",
+            "modest": "Retiro modesto - Necesidades básicas cubiertas con algunos extras",
+            "luxury": "Retiro de lujo - Viajar y disfrutar la vida sin preocupaciones financieras"
+          }
+        },
+        "retirementPlans": {
+          "title": "Cuéntanos sobre tus Planes de Retiro",
+          "subtitle": "¿Cuándo planeas retirarte?",
+          "question": "¿Cuándo planeas retirarte?",
+          "ageLabel": "Selecciona tu edad",
+          "selectAge": "Selecciona tu edad",
+          "options": {
+            "18": "18 años",
+            "19": "19 años",
+            "20": "20 años",
+            "21": "21 años",
+            "noMinimum": "Sin edad mínima"
+          }
+        }
+      }
+    },
+    "Finch": {
+      "main": {
+        "title": "Conectar con Finch",
+        "subtitle": "Conecta tu sistema de nómina para comenzar",
+        "connectButton": "Conectar con Finch",
+        "connectingButton": "Conectando...",
+        "errorMessage": "Error al conectar con Finch. Por favor, inténtalo de nuevo."
+      },
+      "error": {
+        "generic": "Ocurrió un error al guardar. Por favor, inténtelo de nuevo."
+      }
+    },
+    "trustee": {
+      "title": "Confirmar Fiduciario",
+      "question": "¿Quién es el Fiduciario del Plan?",
+      "description": {
+        "part1": "El Custodio operará como el Fiduciario del Plan para los planes de GlidingPath a menos que se especifique lo contrario.",
+        "planTrustee": "Fiduciario del Plan",
+        "part2": "es el individuo responsable de supervisar los activos del plan 401(k). Este es típicamente un propietario fiduciario, CEO u otro fiduciario autorizado para gestionar las responsabilidades financieras del plan. El Fiduciario es una persona de EE.UU. con SSN o ITIN.",
+        "part3": "¿Le gustaría nombrar a un individuo diferente al custodio como Fiduciario para el {{company}}?"
+      },
+      "options": {
+        "yes": "Sí",
+        "no": "No"
+      },
+      "forms": {
+        "appointDetails": "Por favor ingrese los detalles del individuo que desea nombrar como Fiduciario.",
+        "title": "Título",
+        "legalName": "Nombre legal",
+        "emailId": "Correo electrónico",
+        "placeholders": {
+          "title": "Ingrese título",
+          "legalName": "Ingrese el nombre legal del individuo",
+          "emailId": "Ingrese dirección de correo electrónico"
+        }
+      },
+      "agreements": {
+        "emailAddresses": "Acepto proporcionar a Glidingpath direcciones de correo electrónico válidas para todos los empleados y propietarios de {{company}} si no están disponibles en mi nómina para asegurar que los participantes reciban información sobre avisos de inscripción electrónica y comunicaciones relacionadas con su plan",
+        "investmentManager": "Por la presente autorizo y nombro a Glidingpath Investments, LLC como administrador de inversiones del Plan dentro del significado de la sección 3(38) de ERISA.",
+        "planAdministrator": "Por la presente autorizo y nombro a Glidingpath RK, LLC como Administrador del Plan dentro del significado de la sección 3(16) de ERISA."
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Aceptar y continuar",
+        "saving": "Guardando..."
+      },
+      "error": {
+        "generic": "Ocurrió un error. Por favor intente de nuevo."
+      }
+    },
+    "sign": {
+      "title": "Firmar plan",
+      "error": {
+        "close": "×"
+      },
+      "documents": {
+        "title": "Ver todos los documentos",
+        "description": {
+          "part1": "Tu Documento Básico del Plan contiene detalles para tu plan 401(k).",
+          "basicPlanDocument": "Documento Básico del Plan",
+          "part2": "contiene detalles para tu plan 401(k)."
+        },
+        "list": [
+          "Divulgación de tarifas Glidingpath RK, LLC 408(b)(2)",
+          "Divulgación de tarifas Glidingpath Investments, LLC 408(b)(2)",
+          "Acuerdo de Servicios Glidingpath y Documento de Fideicomiso (contiene acuerdo de custodia BTC)",
+          "Acuerdo de Adopción 401(k)"
+        ],
+        "viewButton": "Ver",
+        "notice": "Los documentos se están generando. Se le notificará para verificar y firmarlos una vez que estén listos."
+      },
+      "autoEnrollment": {
+        "message": "Los empleados elegibles serán inscritos automáticamente a una tasa de contribución del empleado del 5% a menos que elijan su propia tasa o se retiren."
+      },
+      "signPlan": {
+        "title": "Firma tu plan",
+        "description": {
+          "part1": "Al firmar a continuación, estás adoptando el Plan según lo establecido en el Acuerdo de Adopción y ejecutando el Acuerdo de Servicios de Glidingpath.",
+          "part2": "Una vez firmado, el plan será legalmente establecido. Necesitarás firmar una enmienda al plan si decides cambiar o terminar tu plan."
+        },
+        "confirmations": [
+          "Confirmo que he leído todos los documentos anteriores",
+          "Entiendo que cualquier cambio a mi plan después de firmar podría retrasar el inicio de mi plan y las primeras contribuciones de empleados."
+        ],
+        "form": {
+          "firstName": "Nombre",
+          "lastName": "Apellido",
+          "firstNamePlaceholder": "Ingresa tu nombre",
+          "lastNamePlaceholder": "Ingresa tu apellido"
+        },
+        "signature": {
+          "label": "Firma: Relaciones con Inversionistas",
+          "placeholder": "Escribe tu nombre en el campo de arriba para firmar"
+        },
+        "agreement": {
+          "text": "Al usar Glidingpath, aceptas la",
+          "privacyPolicy": "Política de Privacidad",
+          "and": "y el",
+          "advBrochure": "Folleto ADV/2A"
+        }
+      },
+      "navigation": {
+        "back": "Atrás",
+        "signPlan": "Firmar plan",
+        "signingPlan": "Firmando plan..."
+      }
+    },
+    "reviewPricing": {
+      "title": "Revisar precios",
+      "loading": {
+        "details": "Cargando detalles de precios...",
+        "information": "Cargando información de precios...",
+        "noPricing": "No hay información de precios disponible"
+      },
+      "error": {
+        "title": "Error al cargar precios",
+        "tryAgain": "Intentar de nuevo"
+      },
+      "taxCreditInfo": {
+        "text": "Las pequeñas empresas elegibles que adopten un plan 401(k) por primera vez pueden calificar para créditos fiscales que cubran los costos de su plan durante los primeros 3 años. Consulte con su asesor fiscal para asegurar la elegibilidad y ayuda con las reclamaciones.",
+        "taxCredits": "créditos fiscales",
+        "description": "",
+        "superscript": ""
+      },
+      "employerPays": {
+        "title": "El empleador paga (Administración del Plan)",
+        "baseFee": "Tarifa base",
+        "baseFeeAmount": "$89/mes",
+        "participantFee": "Tarifa por participante",
+        "participantFeeAmount": "$8 por participante/mes",
+        "accountFee": "Tarifa de cuenta",
+        "accountFeeAmount": "Ninguna"
+      },
+      "employerPaysInvestment": {
+        "title": "El empleador paga (Gestión de Inversiones)",
+        "accountFee": "Tarifa de cuenta",
+        "accountFeeAmount": "0.15% del saldo de la cuenta/año"
+      },
+      "employeePays": {
+        "title": "El empleado paga",
+        "accountFee": "Tarifa de cuenta",
+        "accountFeeAmount": "0.15% del saldo de la cuenta/año"
+      },
+      "units": {
+        "perMonth": "/mes",
+        "perParticipantMonth": "por participante/mes"
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Aceptar y continuar"
+      },
+      "support": {
+        "text": "¿Quieres soporte dedicado y más opciones personalizadas?",
+        "contactUs": "Contáctanos"
+      },
+      "accessibility": {
+        "moreInfo": "Más información"
+      }
+    },
+    "reviewBusiness": {
+      "title": "Revisa los detalles de tu negocio",
+      "error": {
+        "closeButton": "×"
+      },
+      "validation": {
+        "title": "Por favor corrige los siguientes errores:",
+        "required": "Requerido",
+        "payrollScheduleFormat": "{{schedule}} ({{days}} días antes)"
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Guardar y continuar",
+        "saving": "Guardando..."
+      },
+      "fields": {
+        "legalName": "Nombre Legal de la Empresa/Compañía",
+        "ein": "Número de Identificación del Empleador (EIN)",
+        "businessAddress": "Dirección del negocio",
+        "street": "Calle",
+        "apt": "Apto",
+        "city": "Ciudad",
+        "state": "Estado",
+        "postalCode": "Código Postal",
+        "phoneNumber": "Número de teléfono",
+        "mailingDifferent": "La dirección de correo difiere de la dirección del negocio",
+        "entityType": "Tipo de entidad",
+        "payrollProvider": "Proveedor de nómina",
+        "payrollSchedule": "Programa de nómina",
+        "paySchedule": "Programa de Pago",
+        "payrollDaysBefore": "Número de días antes del día de pago que se envía la nómina",
+        "estimatedEmployeeCount": "Conteo estimado de empleados",
+        "unionEmployees": "Empleados sindicalizados",
+        "leasedEmployees": "Empleados arrendados",
+        "existingRetirementPlan": "Plan de retiro existente",
+        "relatedEntities": "Entidades relacionadas"
+      },
+      "placeholders": {
+        "legalName": "Por favor ingresa el nombre de tu empresa/compañía",
+        "ein": "Ingresa tu EIN o TIN",
+        "street": "Calle",
+        "apt": "Apto",
+        "city": "Ciudad",
+        "state": "Estado",
+        "postalCode": "Código Postal",
+        "phoneNumber": "Número de teléfono",
+        "entityType": "Selecciona el tipo de entidad de la empresa",
+        "payrollProvider": "Selecciona tu nómina",
+        "paySchedule": "Programa de pago",
+        "estimatedEmployeeCount": "Selecciona el conteo de empleados",
+        "selectOption": "Selecciona opción"
+      },
+      "helpText": {
+        "ein": "Por favor proporciona tu Número de Identificación del Empleador (EIN) o Número de Identificación Fiscal (TIN)",
+        "businessAddress": "¿Dónde está tu lugar principal de negocio? Necesitamos esto solo para verificar tu negocio.",
+        "entityType": "¿Cuál es el tipo de entidad de tu empresa?",
+        "payrollProvider": "¿Selecciona tu proveedor de nómina?",
+        "payrollSchedule": "Este es el día del mes que pagas a tus empleados. Lo usaremos para determinar la primera fecha de nómina de tu plan con contribuciones.",
+        "payrollScheduleAdditional": "Para el 92% de las empresas, solo hay 1 programa de nómina. Si pagas a diferentes empleados en diferentes fechas,"
+      },
+      "actions": {
+        "addPayrollSchedule": "agregar otro programa de nómina"
+      },
+      "validationErrors": {
+        "legalName": "El nombre legal del negocio es requerido",
+        "ein": "EIN es requerido",
+        "einFormat": "EIN debe estar en formato XX-XXXXXXX",
+        "businessAddress": "La dirección del negocio es requerida",
+        "street": "La dirección de la calle es requerida",
+        "city": "La ciudad es requerida",
+        "state": "El estado es requerido",
+        "postal": "El código postal es requerido",
+        "entityType": "El tipo de entidad es requerido",
+        "payrollProvider": "El proveedor de nómina es requerido",
+        "payrollSchedule": "El programa de nómina es requerido",
+        "estimatedEmployeeCount": "El conteo estimado de empleados es requerido",
+        "unionEmployees": "La información de empleados sindicalizados es requerida",
+        "leasedEmployees": "La información de empleados arrendados es requerida",
+        "existingRetirementPlan": "La información del plan de retiro existente es requerida",
+        "relatedEntities": "La información de entidades relacionadas es requerida"
+      }
+    },
+    "starter": {
+      "title": "Diseñar el plan Starter 401(k)",
+      "description": "Configura tu plan para cumplir con los requisitos de cumplimiento de tu empresa.",
+      "error": {
+        "closeButton": "×"
+      },
+      "employeeEligibility": {
+        "title": "Elegibilidad del empleado",
+        "description": "Los empleados que cumplan con los siguientes criterios serán invitados a inscribirse en este plan.",
+        "minimumAge": "Edad mínima",
+        "minimumAgeValue": "Al menos {{age}} años",
+        "timeEmployed": "Tiempo empleado",
+        "timeEmployedValue": "{{time}} meses",
+        "noRequirement": "Sin requisito",
+        "exclusions": "Exclusiones",
+        "noExclusions": "Sin exclusiones",
+        "selectFromList": "Seleccionar de la lista",
+        "locked": "Bloqueado"
+      },
+      "autoEnrolled": {
+        "title": "Empleados auto-inscritos",
+        "description": "El IRS requiere que los empleados sean automáticamente inscritos en la siguiente tasa de contribución del empleado a menos que elijan su propia tasa o se retiren.",
+        "defaultRate": "Tasa de contribución predeterminada del empleado",
+        "annualIncrease": "Incremento anual",
+        "minimumIncrease": "1% de incremento anual hasta 10%",
+        "customIncrease": "{{rate}} de incremento anual hasta {{max}}",
+        "info": "Si esta tasa está por debajo del 10%, el IRS requiere incrementos anuales hasta que alcance ese umbral. Puedes establecer la tasa al 10% o más para eliminar la escalada."
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Guardar y continuar"
+      }
+    },
+    "traditional": {
+      "title": "Diseñar el plan Traditional 401(k)",
+      "description": "Configura tu plan para cumplir con las necesidades de tu empresa y los requisitos de cumplimiento.",
+      "error": {
+        "closeButton": "×"
+      },
+      "employerContribution": {
+        "title": "Configurar contribución del empleador",
+        "subtitle": "Selecciona una contribución del empleador para apoyar el ahorro para el retiro de los empleados.",
+        "description": "Determina cuánto contribuir al retiro de tu empleado",
+        "contributionType": "¿Qué tipo de contribución del empleador proporcionarás?",
+        "percentageQuestion": "¿Qué porcentaje del salario de un empleado contribuirás?",
+        "vestingQuestion": "¿Cuándo serán dueños tus empleados de las contribuciones? (es decir, Programa de Adquisición de Derechos)",
+        "exclusions": "Exclusiones",
+        "selectExclusions": "Seleccionar exclusiones"
+      },
+      "employeeEligibility": {
+        "title": "Elegibilidad del empleado",
+        "description": "Los empleados que cumplan con los siguientes criterios serán invitados a inscribirse en este plan.",
+        "minimumAge": "Edad mínima",
+        "timeEmployed": "Tiempo empleado"
+      },
+      "autoEnrolled": {
+        "title": "Empleados auto-inscritos",
+        "description": "El IRS requiere que los empleados sean automáticamente inscritos en la siguiente tasa de contribución del empleado a menos que elijan su propia tasa o se retiren.",
+        "defaultRate": "Tasa de contribución predeterminada del empleado",
+        "defaultRateNote": "La tasa de contribución mínima necesaria para recibir la contribución completa del empleador es del 5%.",
+        "annualIncrease": "Incremento anual",
+        "annualIncreaseRate": "¿Cuánto aumentará la tasa de contribución anualmente?",
+        "maximumContributionRate": "¿Cuál es la tasa de contribución máxima?",
+        "minimumIncrease": "2% de incremento anual hasta 10%",
+        "customIncrease": "{{rate}} de incremento anual hasta {{max}}",
+        "infoBox": "El IRS requiere incrementos anuales para empleados auto-inscritos con una tasa de contribución predeterminada por debajo del 10%, para ayudar a aumentar sus ahorros."
+      },
+      "profitSharing": {
+        "title": "Función de participación en ganancias",
+        "description": "Agrega Participación en Ganancias a tu plan 401(k) y decide cuánto contribuir cada año — discrecional, flexible y deducible de impuestos.",
+        "defaultContribution": "Contribución predeterminada",
+        "profitSharingFormula": "Fórmula de participación en ganancias",
+        "vestingSchedule": "Programa de adquisición de derechos",
+        "proRataNote": "Si eliges ofrecer participación en ganancias, el programa de adquisición de derechos determina cuándo el empleado será dueño de las contribuciones."
+      },
+      "navigation": {
+        "back": "Atrás",
+        "saveAndContinue": "Guardar y continuar"
+      }
+    },
+    "safeHarbor": {
+      "main": {
+        "title": "Establecer una contribución del empleador de Puerto Seguro",
+        "error": {
+          "closeButton": "×"
+        },
+        "options": {
+          "basic": {
+            "label": "4% de coincidencia básica",
+            "description": "Coincidirás 100% de los primeros 3% del pago del empleado, luego 50% de los siguientes 2%."
+          },
+          "custom": {
+            "label": "Coincidencia personalizada",
+            "description": "Elige coincidir entre 3.5% - 6% del pago de un empleado, y establece cuándo serán propietarios de las contribuciones."
+          },
+          "nonelective": {
+            "label": "Contribución no electiva",
+            "description": "Elige un mínimo de 3% para contribuir al plan 401(k) de cualquier empleado elegible independientemente de si contribuyen o no."
+          }
+        },
+        "popular": "Más popular",
+        "navigation": {
+          "back": "Atrás",
+          "saveAndContinue": "Guardar y continuar",
+          "saving": "Guardando..."
+        }
+      },
+      "summary": {
+        "title": "Diseñar el plan Safe Harbor 401(k)",
+        "description": "Configura tu plan para cumplir con las necesidades de tu empresa y los requisitos de cumplimiento.",
+        "employerContribution": {
+          "title": "Configurar la contribución del empleador de Puerto Seguro",
+          "subtitle": "Selecciona una contribución de Puerto Seguro para asegurar el cumplimiento y apoyar los ahorros de retiro de los empleados.",
+          "description": "Determina cuánto contribuir al retiro de tu empleado",
+          "contributionType": "¿Qué tipo de contribución del empleador proporcionarás?",
+          "percentageQuestion": "¿Qué porcentaje del pago de un empleado contribuirás?",
+          "vestingQuestion": "¿Cuándo serán propietarios de las contribuciones tus empleados?",
+          "exclusions": "Exclusiones",
+          "selectExclusions": "Seleccionar exclusiones",
+          "infoBox": "Coincidirás 100% en los primeros 3% del pago del empleado, luego coincidirás 50% en los siguientes 2%. Los empleados son propietarios de las contribuciones tan pronto como se realizan.",
+          "safeHarborNote": "Para un plan de Puerto Seguro, la contribución del empleador es de adquisición inmediata."
+        },
+        "employeeEligibility": {
+          "title": "Elegibilidad del empleado",
+          "description": "Los empleados que cumplan con los siguientes criterios serán invitados a inscribirse en este plan.",
+          "minimumAge": "Edad mínima",
+          "timeEmployed": "Tiempo empleado"
+        },
+        "autoEnrolled": {
+          "title": "Empleados auto-inscritos",
+          "description": "El IRS requiere que los empleados sean **automáticamente inscritos** con una tasa de contribución predeterminada del empleado a menos que elijan su propia tasa o se retiren.",
+          "defaultRate": "Tasa de contribución predeterminada del empleado",
+          "defaultRateNote": "La tasa de contribución mínima necesaria para recibir la coincidencia completa del empleador es 5%.",
+          "annualIncrease": "Incremento anual",
+          "annualIncreaseRate": "¿cuánto aumentará la tasa de contribución anualmente?",
+          "maximumContributionRate": "¿Cuál es la tasa máxima de contribución?",
+          "minimumIncrease": "1% de incremento anual hasta 10%",
+          "customIncrease": "{{rate}} de incremento anual hasta {{max}}",
+          "infoBox": "El IRS requiere incrementos anuales para empleados auto-inscritos con una tasa de contribución predeterminada por debajo del 10%, para ayudar a aumentar sus ahorros."
+        },
+        "profitSharing": {
+          "title": "Función de participación en ganancias",
+          "description": "Agrega Participación en Ganancias a tu plan 401(k) y decide cuánto contribuir cada año — discrecional, flexible y deducible de impuestos.",
+          "defaultContribution": "Contribución predeterminada",
+          "profitSharingFormula": "Fórmula de participación en ganancias",
+          "profitSharingFormulaDescription": "Si eliges ofrecer participación en ganancias, así es como se calculará. Siempre puedes cambiar de opinión cuando llegue el momento.",
+          "vestingSchedule": "Programa de adquisición",
+          "locked": "Bloqueado",
+          "enterpriseFeature": "Función empresarial",
+          "formulas": {
+            "proRata": {
+              "title": "Pro-rata",
+              "description": "Los participantes reciben una cantidad igual a un porcentaje específico de su compensación."
+            },
+            "flatDollar": {
+              "title": "Dólar plano",
+              "description": "Cada empleado recibe la misma cantidad, independientemente de su compensación total."
+            },
+            "newComparability": {
+              "title": "Nueva comparabilidad",
+              "description": "Elige una cantidad total y distribúyela entre los empleados para maximizar las cantidades para los propietarios (mejor para propietarios mayores con una fuerza laboral más joven)"
+            }
+          },
+          "proRataNote": "Si eliges ofrecer participación en ganancias, el programa de adquisición determina cuándo el empleado será propietario de las contribuciones."
+        },
+        "navigation": {
+          "back": "Atrás",
+          "saveAndContinue": "Guardar y continuar"
+        }
+      },
+      "employerContribution": {
+        "title": "Establecer una contribución del empleador",
+        "error": {
+          "closeButton": "×"
+        },
+        "mainQuestion": "¿Quieres ofrecer una coincidencia del empleador?",
+        "options": {
+          "yes": "Sí",
+          "no": "No"
+        },
+        "matchSection": {
+          "title": "Coincidencia",
+          "description": "¿Qué porcentaje de las contribuciones de un empleado coincidirás?"
+        },
+        "maxSection": {
+          "title": "Hasta un máximo",
+          "description": "Hasta qué porcentaje del pago del empleado"
+        },
+        "vestingSection": {
+          "title": "Programa de Adquisición",
+          "seeAllOptions": "Ver todas las opciones",
+          "description": "¿Cuándo serán propietarios de las contribuciones tus empleados?"
+        },
+        "summary": "Coincidirás {{match}} de las contribuciones de un empleado, hasta {{max}} de su pago. Los empleados son propietarios de las contribuciones tan pronto como se realizan.",
+        "safeHarborNote": "Al contribuir 0.5% más, puedes cambiar a un 401(k) de Puerto Seguro, evitando las pruebas anuales de no discriminación requeridas por un 401(k) tradicional.",
+        "learnMore": "Aprende más",
+        "faq": {
+          "question": "¿Qué pasa si cambio de opinión?",
+          "answer": "Ajustar la contribución futura del empleador es simple y se puede hacer con 30 días de anticipación. Sin embargo, cambiar el programa de adquisición es más complejo. Generalmente, los cambios que benefician a los empleados son más fáciles de implementar que los que no. Si no estás seguro, se recomienda comenzar con un período de adquisición más largo para mantener tus opciones abiertas."
+        },
+        "contactNote": "Si quieres aprender sobre otras opciones, contáctanos",
+        "navigation": {
+          "back": "Atrás",
+          "saveAndContinue": "Guardar y continuar",
+          "saving": "Guardando..."
+        }
+      }
+    },
+    "modals": {
+      "businessDetails": {
+        "ein": {
+          "title": "EIN",
+          "description": "Por favor proporciona tu Número de Identificación del Empleador (EIN) o Número de Identificación Fiscal (TIN).",
+          "placeholder": "Ingresa tu EIN o TIN",
+          "faq": {
+            "question": "¿Dónde puedo encontrar el EIN o TIN de mi empresa?",
+            "answer": "Puedes encontrar tu EIN en formularios de impuestos, cartas del IRS, o contactando a tu proveedor de nómina."
+          }
+        },
+        "businessAddress": {
+          "title": "Dirección del negocio",
+          "description": "¿Dónde está tu lugar principal de negocio? Necesitamos esto solo para verificar tu negocio.",
+          "street": "Calle",
+          "apt": "Apto",
+          "city": "Ciudad",
+          "state": "Estado",
+          "postal": "Código postal",
+          "phone": "Número de teléfono",
+          "mailingDiffers": "La dirección de correo difiere de la dirección del negocio"
+        },
+        "entityType": {
+          "title": "Tipo de entidad",
+          "description": "¿Cuál es el tipo de entidad de tu empresa?",
+          "placeholder": "Tipo de entidad"
+        },
+        "payrollProvider": {
+          "title": "Proveedor de nómina",
+          "description": "¿Quién es tu proveedor de nómina?",
+          "placeholder": "Proveedor de nómina"
+        },
+        "payrollSchedule": {
+          "title": "Programa de nómina",
+          "description": "¿Con qué frecuencia pagas a tus empleados?",
+          "schedule": "Programa",
+          "daysBefore": "Días antes de la nómina",
+          "placeholder": "Programa"
+        },
+        "legalName": {
+          "title": "Nombre legal del negocio",
+          "description": "¿Cuál es el nombre legal del negocio de tu empresa?",
+          "placeholder": "Ingresa el nombre legal de tu negocio"
+        },
+        "estimatedEmployeeCount": {
+          "title": "Conteo estimado de empleados",
+          "description": "¿Cuántos empleados esperas tener?",
+          "placeholder": "Conteo de empleados"
+        },
+        "unionEmployees": {
+          "title": "Empleados sindicalizados",
+          "description": "¿Tienes empleados sindicalizados?",
+          "placeholder": "Empleados sindicalizados"
+        },
+        "leasedEmployees": {
+          "title": "Empleados arrendados",
+          "description": "¿Tienes empleados arrendados?",
+          "placeholder": "Empleados arrendados"
+        },
+        "existingRetirementPlan": {
+          "title": "Plan de retiro existente",
+          "description": "¿Actualmente tienes un plan de retiro existente?",
+          "placeholder": "Plan de retiro existente"
+        },
+        "relatedEntities": {
+          "title": "Entidades relacionadas",
+          "description": "¿Tienes entidades relacionadas?",
+          "placeholder": "Entidades relacionadas"
+        }
+      },
+      "contributionRate": {
+        "title": "¿Cuál debería ser la tasa de contribución predeterminada del empleado?",
+        "description": "Los empleados elegibles serán automáticamente inscritos en la siguiente tasa de contribución del empleado a menos que elijan su propia tasa o se retiren.",
+        "info": "Si esta tasa está por debajo del 10%, el IRS requiere incrementos anuales hasta que alcance ese umbral. Puedes establecer la tasa al 10% o más para eliminar la escalada.",
+        "minimumContribution": "La tasa de contribución mínima necesaria para recibir la contribución completa del empleador es 3%."
+      },
+      "annualIncrease": {
+        "title": "¿Cuánto deberían aumentar las contribuciones de los empleados auto-inscritos anualmente?",
+        "description": "El IRS requiere un incremento anual para los empleados auto-inscritos cuya tasa de contribución predeterminada está por debajo del 10%, con el objetivo de aumentar los ahorros de los empleados.",
+        "chooseOptions": "Elige entre dos opciones:",
+        "minimumRequired": "Mínimo requerido",
+        "minimumDescription": "1% de incremento anual hasta que alcance 10%",
+        "customize": "Personalizar la tasa de incremento anual",
+        "annualIncreaseLabel": "¿Cuánto aumentará la tasa de contribución anualmente?",
+        "maxContributionLabel": "¿Cuál es la tasa máxima de contribución?",
+        "faqQuestion": "¿Qué pasa si no quiero incluir un incremento anual?",
+        "faqAnswer": "Puedes optar por no incluir incrementos anuales, pero esto puede afectar el cumplimiento con los requisitos del IRS y podría impactar el crecimiento de los ahorros de los empleados."
+      },
+      "limitations": {
+        "title": "Entendiendo las limitaciones de un plan Starter 401(k)",
+        "description": "Un plan Starter 401(k) puede ser un excelente plan para principiantes para las empresas, sin embargo debes ser consciente de sus limitaciones",
+        "limitations": [
+          "No se permiten contribuciones del empleador.",
+          "No se puede cambiar a un 401(K) estándar hasta el 1 de enero de 2026",
+          "Límite de contribución del empleado de $6,000."
+        ],
+        "seeOtherPlans": "Ver otros planes",
+        "understand": "Entiendo",
+        "saving": "Guardando..."
+      },
+      "nondiscrimination": {
+        "title": "Reconocimiento de pruebas de no discriminación",
+        "description": "Con un 401(k) Tradicional, tendrás que pasar pruebas anuales de no discriminación. Si tu plan falla las pruebas, se requerirán correcciones, que pueden incluir:",
+        "corrections": {
+          "0": "Contribuciones obligatorias del empleador a empleados no altamente compensados o no clave, y/o",
+          "1": "Reembolso de contribuciones 401(k) a empleados altamente compensados."
+        },
+        "complianceNote": "Glidingpath proporciona monitoreo de cumplimiento para ayudar a identificar problemas potenciales y gestionar las correcciones requeridas.",
+        "seeOtherPlans": "Ver otros planes",
+        "understand": "Entiendo"
+      },
+      "employerContribution": {
+        "title": "Contribución del Empleador",
+        "description": "Un plan de Puerto Seguro requiere una contribución mínima del 3%. Para contribuir menos, cambia a un 401(k) Tradicional. Para contribuir más o agregar un programa de adquisición más largo, contáctanos.",
+        "contributionType": {
+          "label": "Tipo de contribución",
+          "tooltip": "Tipo de contribución del empleador"
+        },
+        "contributionPercentage": {
+          "label": "Porcentaje de Contribución",
+          "tooltip": "¿Qué porcentaje del pago contribuirás?"
+        },
+        "vestingSchedule": {
+          "label": "Programa de adquisición",
+          "tooltip": "¿Cuándo serán propietarios de las contribuciones los empleados?"
+        },
+        "summary": "Coincidirás 100% en los primeros 3% del pago del empleado, luego coincidirás 50% en los siguientes 2%. Los empleados son propietarios de las contribuciones tan pronto como se realizan.",
+        "faq": {
+          "qaca": {
+            "question": "¿Qué es QACA y cómo lo configuro?",
+            "answer": "QACA (Arreglo de Contribución Automática Calificado) ofrece un compromiso de coincidencia del empleador más bajo en comparación con los planes de puerto seguro tradicionales, convirtiéndolos en una opción rentable para los empleadores. Estos planes también permiten un programa de adquisición en lugar de adquisición inmediata, lo que puede ayudar con la retención de empleados.\n\nPara configurar un QACA, necesitarás elegir:\n• Un programa de adquisición (no inmediato), O\n• Una coincidencia del empleador del 3.5%."
+          },
+          "changeMind": {
+            "question": "¿Qué pasa si cambio de opinión?",
+            "answer": "Ajustar la contribución futura del empleador es simple y se puede hacer con 30 días de anticipación. Sin embargo, cambiar el programa de adquisición es más complejo. Generalmente, los cambios que benefician a los empleados son más fáciles de implementar que los que no. Si no estás seguro, se recomienda comenzar con un período de adquisición más largo para mantener tus opciones abiertas. Aprende más"
+          }
+        }
+      },
+      "minimumAge": {
+        "title": "Edad mínima",
+        "description": "Establece la edad mínima requerida para que tus empleados sean elegibles para participar.",
+        "faq": {
+          "question": "¿Los empleados de tiempo parcial o trabajadores temporales son elegibles?",
+          "answer": "Los trabajadores de tiempo parcial y temporales pueden ser elegibles dependiendo de los requisitos específicos de tu plan y las regulaciones federales. Revisa los detalles de tu plan o consulta con tu proveedor para más información."
+        }
+      },
+      "timeEmployed": {
+        "title": "Tiempo empleado",
+        "description": "Establece la duración mínima de empleo requerida para que los empleados sean elegibles para participar. Esto se basa en tiempo transcurrido (no horas de servicio).",
+        "newHires": {
+          "title": "Nuevas contrataciones",
+          "description": "Empleados contratados después de la fecha de inicio del plan. Este será el requisito de servicio predeterminado."
+        },
+        "existingEmployees": {
+          "title": "Empleados existentes",
+          "description": "Empleados que trabajan al momento de la fecha de inicio del plan.",
+          "value": "0 meses"
+        },
+        "locked": "Bloqueado",
+        "info": "¿Sabías que\nMás del 50% de nuestros planes permiten que sus empleados participen inmediatamente al ser contratados.",
+        "faq": {
+          "partTime": {
+            "question": "¿Los empleados de tiempo parcial o trabajadores temporales son elegibles?",
+            "answer": "Los trabajadores de tiempo parcial y temporales pueden ser elegibles dependiendo de los requisitos específicos de tu plan y las regulaciones federales. Revisa los detalles de tu plan o consulta con tu proveedor para más información."
+          },
+          "rehired": {
+            "question": "¿Qué pasa con los empleados re-contratados?",
+            "answer": "Los empleados re-contratados pueden estar sujetos a diferentes reglas de elegibilidad. Por favor revisa tu documento del plan o consulta con tu proveedor para detalles."
+          }
+        }
+      },
+      "profitSharingFormula": {
+        "title": "Establecer una fórmula de participación en ganancias",
+        "description": "Si eliges ofrecer participación en ganancias, así es como se calculará. Siempre puedes cambiar de opinión cuando llegue el momento.",
+        "label": "Fórmula de Participación en Ganancias",
+        "helpText": "Selecciona la fórmula que mejor se adapte a las necesidades de tu negocio",
+        "info": "La fórmula que elijas determinará cómo se distribuyen las contribuciones de participación en ganancias entre los empleados elegibles.",
+        "options": {
+          "proRata": {
+            "label": "Pro-rata",
+            "description": "Los participantes reciben una cantidad igual a un porcentaje especificado de su compensación total."
+          },
+          "flatDollar": {
+            "label": "Dólar plano",
+            "description": "Cada empleado recibe la misma cantidad, independientemente de su compensación total."
+          },
+          "newComparability": {
+            "label": "Nueva comparabilidad",
+            "description": "Elige una cantidad total y distribuimos entre empleados para maximizar las cantidades para propietarios (mejor para propietarios mayores con una fuerza laboral más joven).",
+            "badge": "Función empresarial"
+          }
+        }
+      },
+      "vestingSchedule": {
+        "title": "Establecer un programa de adquisición de participación en ganancias",
+        "description": "Si eliges ofrecer participación en ganancias, esto es cuando los empleados obtendrán la propiedad de las contribuciones (adquisición).",
+        "label": "¿Qué programa de adquisición quieres?",
+        "placeholder": "Selecciona un programa de adquisición",
+        "loading": {
+          "title": "Cargando...",
+          "message": "Cargando programas de adquisición..."
+        },
+        "error": {
+          "title": "Error",
+          "message": "Error al cargar programas de adquisición"
+        },
+        "faq": {
+          "question": "¿Qué pasa si cambio de opinión?",
+          "answer": "Ajustar los programas de adquisición futuros puede ser posible, pero puede ser complejo. Generalmente, los cambios que benefician a los empleados son más fáciles de implementar. Si no estás seguro, se recomienda comenzar con un período de adquisición más largo para mantener tus opciones abiertas."
+        }
+      }
+    },
+    "NotificationsPanel": {
+      "title": "Notificaciones",
+      "viewAll": "Ver todo",
+      "notifications": [
+        {
+          "title": "Lorem ipsum dolor sit amet, consectetur.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, consectetur.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    "PlanAssetChart": {
+      "title": "Activos del Plan",
+      "value": "7,2141,997.5 (25%)",
+      "tooltip": {
+        "value": "{{value}}"
+      }
+    },
+    "ParticipantsDonut": {
+      "title": "Participantes",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "percentage": "80%",
+      "count": "2 de 3"
+    },
+    "ComplianceStatusCard": {
+      "title": "Estado de Cumplimiento",
+      "safeHarbor2021": "Puerto Seguro (2021)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "viewDashboard": "Ver panel de cumplimiento"
+    },
+    "ContributionsBarChart": {
+      "title": "Contribuciones del Año 2025",
+      "filters": {
+        "all": "TODO",
+        "oneMonth": "1M",
+        "sixMonths": "6M",
+        "oneYear": "1A",
+        "ytd": "YTD"
+      },
+      "tooltip": {
+        "proposedEmployee": "Empleado Propuesto",
+        "proposedEmployer": "Empleador Propuesto"
+      },
+      "summary": {
+        "proposedEmployee": "Empleado Propuesto",
+        "proposedEmployer": "Empleador Propuesto",
+        "ytdEmployee": "Empleado YTD",
+        "ytdEmployer": "Empleador YTD"
+      }
+    },
+    "DocumentViewerModal": {
+      "pdf": {
+        "openInNewTab": "Abrir PDF en nueva pestaña"
+      },
+      "navigation": {
+        "back": "Atrás",
+        "nextDocument": "Siguiente documento",
+        "finish": "Finalizar"
+      },
+      "actions": {
+        "saveDocument": "Guardar documento",
+        "saved": "Guardado"
+      },
+      "counter": "{{current}}/{{total}} documentos"
+    },
+    "Table": {
+      "addButton": "Botón"
+    },
+    "InvestmentPlan": {
+      "title": "Tu Plan de Inversión",
+      "subtitle": "Hemos elegido el mejor fondo de fecha objetivo basado en tu edad de jubilación.",
+      "autoSelected": "Auto-Seleccionado",
+      "retirementFund": {
+        "title": "Fondo de Jubilación 2045",
+        "description": "Un fondo gestionado profesionalmente que ajusta automáticamente tu mezcla de inversión a medida que te acercas a la jubilación.",
+        "features": {
+          "autoRebalancing": "Auto-Equilibrio",
+          "lowFees": "Bajas Comisiones",
+          "professionalManagement": "Gestión Profesional"
+        }
+      },
+      "allocationMix": {
+        "title": "Mezcla de Asignación Actual",
+        "investments": {
+          "stockBond1": "Acción o bono 1",
+          "stockBond2": "Acción o bono 2",
+          "stockBond3": "Acción o bono 3",
+          "stockBond4": "Acción o bono 4",
+          "stockBond5": "Acción o bono 5"
+        }
+      },
+      "whyThisMix": {
+        "title": "Por Qué Esta Mezcla Funciona Para Ti",
+        "description": "Dado que tienes más de 35 años hasta la jubilación, esta asignación enfatiza el crecimiento a través de acciones mientras mantiene cierta estabilidad con bonos. A medida que te acerques a 2060, el fondo se desplazará automáticamente para volverse más conservador."
+      },
+      "actions": {
+        "continueConfirm": "Continuar y Confirmar",
+        "customizeInvestments": "¿Quieres personalizar tus inversiones en su lugar?"
+      }
+    },
+    "ContributionsCard": {
+      "title": "Contribuciones",
+      "viewAll": "Ver todo",
+      "currentPeriodContribution": "Contribución del Período Actual",
+      "perPeriod": "por período",
+      "fromYou": "de ti",
+      "fromEmployer": "del empleador",
+      "annualContribution": "Contribución Anual",
+      "contributionIn2024": "contribución en 2024",
+      "manageContributions": "Gestionar Contribuciones"
+    },
+    "ParticipantLogin": {
+      "title": "Verificación de Identidad",
+      "subtitle": "Por favor proporciona la siguiente información para verificar tu identidad",
+      "lastName": {
+        "label": "Apellido:",
+        "placeholder": "Ingresa tu nombre"
+      },
+      "ssnOrEmployeeId": {
+        "label": "Últimos 4 dígitos del SSN o ID de Empleado:",
+        "placeholder": "xxxx"
+      },
+      "dateOfBirth": {
+        "label": "Fecha de Nacimiento:",
+        "placeholder": "dd-mm-aaaa"
+      },
+      "securityCheckbox": "Los detalles de tranquilidad de seguridad estarán aquí",
+      "securityBanner": "Tu información está encriptada y segura",
+      "submitButton": "Verificar Identidad",
+      "verificationFailed": {
+        "title": "Verificación Fallida",
+        "message": "La información proporcionada no coincide con nuestros registros. Por favor verifica tus detalles e inténtalo de nuevo."
+      },
+      "errors": {
+        "lastNameRequired": "El apellido es requerido",
+        "ssnRequired": "SSN o ID de Empleado es requerido",
+        "ssnMinLength": "Por favor ingresa al menos 4 dígitos",
+        "dateRequired": "La fecha de nacimiento es requerida",
+        "dateFormat": "Por favor ingresa la fecha en formato dd-mm-aaaa"
+      },
+      "accessibility": {
+        "showSSN": "Mostrar SSN",
+        "hideSSN": "Ocultar SSN"
+      }
+    }
+  },
+  "Login": {
+    "title": "Iniciar Sesión",
+    "email": {
+      "label": "Correo Electrónico:",
+      "placeholder": "Ingresa tu correo electrónico"
+    },
+    "password": {
+      "label": "Contraseña:",
+      "placeholder": "Ingresa tu contraseña"
+    },
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "submitButton": "Iniciar Sesión",
+    "signUpPrompt": "¿No tienes una cuenta?",
+    "signUpLink": "Registrarse",
+    "accessibility": {
+      "showPassword": "Mostrar contraseña",
+      "hidePassword": "Ocultar contraseña"
+    },
+    "error": "Por favor ingresa un correo electrónico y contraseña válidos"
+  },
+  "Select": {
+    "title": "Selecciona tu rol"
+  },
+  "Interested": {
+    "title": "Estoy interesado en",
+    "submitButton": "Guardar y continuar",
+    "backButton": "Atrás",
+    "options": {
+      "0": {
+        "name": "Un plan 401(k) para mi empresa",
+        "desc": "Soy un propietario/administrador explorando opciones para un nuevo plan 401(k) o transferencia de un plan 401(k) existente."
+      },
+      "1": {
+        "name": "Un plan 401(k) para mi cliente",
+        "desc": "Soy un asesor financiero/consultor de beneficios buscando un plan 401(k) adecuado para mi cliente."
+      },
+      "2": {
+        "name": "Accediendo a mi plan 401(k)",
+        "desc": "Soy un participante buscando acceder a mi plan 401(k) existente en GlidingPath."
+      }
+    }
+  },
+  "NotificationsPanel": {
+    "title": "Notificaciones",
+    "viewAll": "Ver todo",
+    "notifications": [
+      {
+        "title": "Lorem ipsum dolor sit amet, consectetur.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet, consectetur.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "PlanAssetChart": {
+    "title": "Activos del Plan",
+    "value": "7,2141,997.5 (25%)",
+    "tooltip": {
+      "value": "{{value}}"
+    }
+  },
+  "TotalRetirementSavingCard": {
+    "title": "Ahorro Total de Retiro",
+    "value": "7,214,997.5 (25%)",
+    "tooltip": {
+      "value": "{{value}}"
+    }
+  },
+  "ParticipantsDonut": {
+    "title": "Participantes",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "percentage": "80%",
+    "count": "2 de 3"
+  },
+  "ComplianceStatusCard": {
+    "title": "Estado de Cumplimiento",
+    "safeHarbor2021": "Puerto Seguro (2021)",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "viewDashboard": "Ver panel de cumplimiento"
+  },
+  "ContributionsBarChart": {
+    "title": "Contribuciones del Año 2025",
+    "filters": {
+      "all": "TODO",
+      "oneMonth": "1M",
+      "sixMonths": "6M",
+      "oneYear": "1A",
+      "ytd": "YTD"
+    },
+    "tooltip": {
+      "proposedEmployee": "Empleado Propuesto",
+      "proposedEmployer": "Empleador Propuesto"
+    },
+    "summary": {
+      "proposedEmployee": "Empleado Propuesto",
+      "proposedEmployer": "Empleador Propuesto",
+      "ytdEmployee": "Empleado YTD",
+      "ytdEmployer": "Empleador YTD"
+    }
+  },
+  "DocumentViewerModal": {
+    "pdf": {
+      "openInNewTab": "Abrir PDF en nueva pestaña"
+    },
+    "navigation": {
+      "back": "Atrás",
+      "nextDocument": "Siguiente documento",
+      "finish": "Finalizar"
+    },
+    "actions": {
+      "saveDocument": "Guardar documento",
+      "saved": "Guardado"
+    },
+    "counter": "{{current}}/{{total}} documentos"
+  }
+}

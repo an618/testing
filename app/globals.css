@@ -1,0 +1,93 @@
+@import "tailwindcss";
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --brandStart: #EFF6FF;
+  --brandEnd: #FAF5FF;
+  --custom-quaternary-100: #EFF0FC;
+  --custom-quaternary-200: #CBCDF7;
+  --custom-quaternary-300: #E3D6FB;
+  --custom-tertiary-100: #D8D9FA;
+  --custom-gray-100: #DFDFE1;
+  --custom-gray-200: #B7B8BB;
+  --custom-gray-300: #999AA0;
+  --custom-gray-400: #6C6D74;
+  --custom-gray-500: #4A4B50;
+  --custom-gray-600: #2B2B2E;
+  --custom-gray-700: #111113;
+  --custom-lavender-100: #F5F6FF;
+  --custom-primary-100: #D9DEFD;
+  --custom-brandStart: #7A76E2;
+  --custom-blue-100: #3498E2;
+  --custom-cyan-100: #55CDEE;
+  --custom-coral-100: #FF998F;
+  --custom-yellow-100: #FFD752;
+  --custom-green-100: #14CB2F;
+  --custom-tooltip-dot: #3B5BFE;
+  --custom-tooltip-text: #081021;
+  --custom-tooltip-time: #94A3B8;
+  --custom-chart-stroke: #6C3DF4;
+  --primary: #2563EB;
+  --secondary: #9333EA;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+  --color-brandStart: var(--brandStart);
+  --color-brandEnd: var(--brandEnd);
+  --color-custom-quaternary-100: var(--custom-quaternary-100);
+  --color-custom-quaternary-200: var(--custom-quaternary-200);
+  --color-custom-quaternary-300: var(--custom-quaternary-300);
+  --color-custom-tertiary-100: var(--custom-tertiary-100);
+  --color-custom-gray-100: var(--custom-gray-100);
+  --color-custom-gray-200: var(--custom-gray-200);
+  --color-custom-gray-300: var(--custom-gray-300);
+  --color-custom-gray-400: var(--custom-gray-400);
+  --color-custom-gray-500: var(--custom-gray-500);
+  --color-custom-gray-600: var(--custom-gray-600);
+  --color-custom-gray-700: var(--custom-gray-700);
+  --color-custom-lavender-100: var(--custom-lavender-100);
+  --color-custom-primary-100: var(--custom-primary-100);
+  --color-custom-brandStart: var(--custom-brandStart);
+  --color-custom-blue-100: var(--custom-blue-100);
+  --color-custom-cyan-100: var(--custom-cyan-100);
+  --color-custom-coral-100: var(--custom-coral-100);
+  --color-custom-yellow-100: var(--custom-yellow-100);
+  --color-custom-green-100: var(--custom-green-100);
+  --color-custom-tertiary-100: var(--custom-tertiary-100);
+  --color-custom-tooltip-dot: var(--custom-tooltip-dot);
+  --color-custom-tooltip-text: var(--custom-tooltip-text);
+  --color-custom-tooltip-time: var(--custom-tooltip-time);
+  --color-custom-chart-stroke: var(--custom-chart-stroke);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+
+/* Hide scrollbar but allow scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

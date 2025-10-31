@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: production
+        KEYCLOAK_CLIENT_ID: glidingpath-ui
+        KEYCLOAK_CLIENT_SECRET: your-client-secret-here
+        KEYCLOAK_ISSUER: http://13.204.9.137:8080/realms/glidingpath
+        NEXTAUTH_URL: http://13.204.9.137:3000
+        NEXT_PUBLIC_API_BASE_URL: http://13.204.9.137:9090
+        NEXTAUTH_SECRET: SqdDXzpm+HEvHh2rRLksZbJ6gxs861LEvyz9ZlUlMp4=
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - KEYCLOAK_CLIENT_ID=glidingpath-ui
+      - KEYCLOAK_CLIENT_SECRET=your-client-secret-here
+      - KEYCLOAK_ISSUER=http://13.204.9.137:8080/realms/glidingpath
+      - NEXTAUTH_URL=http://13.204.9.137:3000
+      - NEXT_PUBLIC_API_BASE_URL=http://13.204.9.137:9090
+      - NEXTAUTH_SECRET=SqdDXzpm+HEvHh2rRLksZbJ6gxs861LEvyz9ZlUlMp4=
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://13.204.9.137:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
